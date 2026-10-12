@@ -1,0 +1,55 @@
+col_name,concept,scale_range,higher_means,waves_available,notes
+wave,wave,WV2..WV7,later wave,all,Wave identifier
+year,year,1990..2018,later year,all,Fieldwork year
+row_in_wave,row_in_wave,0..n_wave-1,n/a,all,Original row index within source xlsx (for joins)
+cluster,cluster,"0,1,2 or NaN",more trust (0->2),all,Trust-orientation cluster from trust_clusters.py (k=3); NaN if >30% trust missing
+conf_military,conf_military,1..4,more confidence,all,Reverse-coded from raw WVS 1=Great deal..4=None
+conf_police,conf_police,1..4,more confidence,all,Reverse-coded
+conf_courts,conf_courts,1..4,more confidence,all except WV4,Reverse-coded; WV4 not asked
+conf_parliament,conf_parliament,1..4,more confidence,all,Reverse-coded
+conf_government,conf_government,1..4,more confidence,all,Reverse-coded
+conf_civil_service,conf_civil_service,1..4,more confidence,all,Reverse-coded
+rel_person,rel_person,1..3,less religious,all,"1=religious, 2=not religious, 3=convinced atheist"
+rel_attendance,rel_attendance,1..8,less frequent,all,1=more than once a week .. 8=never (per WVS)
+rel_importance_god,rel_importance_god,1..10,more important,all,Importance of God in life
+left_right,left_right,1..10,more right-wing,all,"Self-placement: 1=left, 10=right"
+life_satisfaction,life_satisfaction,1..10,more satisfied,all,Satisfaction with your life
+financial_satisfaction,financial_satisfaction,1..10,more satisfied,all,Satisfaction with household finances
+happiness,happiness,1..4,less happy,all,1=very happy .. 4=not at all happy (WVS raw)
+interpersonal_trust,interpersonal_trust,1..2,more distrust,all,"1=most can be trusted, 2=can't be too careful"
+political_interest,political_interest,1..4,less interested,all,1=very interested .. 4=not at all
+freedom_control,freedom_control,1..10,more freedom/control,WV3-WV7,Freedom of choice and control over life; WV2 missing
+democracy_importance,democracy_importance,1..10,more important,WV5-WV7,Importance of democracy; not asked WV2-WV4
+strong_leader,strong_leader,1..4,less favorable,WV3-WV7,1=very good political system .. 4=very bad; WV2 missing
+national_pride,national_pride,1..4,less proud,all,1=very proud .. 4=not at all proud (WVS raw)
+postmaterialism_index,postmaterialism_index,1..3,more postmaterialist,all,"Y002: 1=Materialist, 2=Mixed, 3=Postmaterialist"
+age,age,17..95,older,all,Age in years
+sex,sex,"1,2",—,all,"1=male, 2=female (raw)"
+female,sex,"0,1",is female,all,"Derived dummy: 1=female, 0=male"
+education_raw,education_raw,WV2-6: 1..8/9; WV7: 0..6,more education,all,WV2-6 use WVS X025 scale; WV7 uses ISCED — NOT directly comparable to earlier waves
+education_recode,education_raw,1..3,more education,all,Low(1-2)/Med(3-5)/High(6-8); CAVEAT: WV7 ISCED 0-6 mapped via same cutoffs — interpretation differs
+income_raw,income_raw,1..10,higher income,all,Scale of incomes (subjective decile)
+marital_status,marital_status,1..6,—,all,"1=Married,2=Living together,3=Divorced,4=Separated,5=Widowed,6=Single (raw)"
+married_dummy,marital_status,"0,1",married,all,"Derived: 1 if marital_status in {1,2}, else 0"
+social_class,social_class,1..5,lower class,WV3-WV7,1=upper..5=lower (subjective); WV2 missing
+region,region,categorical,n/a,all,Sub-national region (wave-specific codes); use as categorical only
+party_raw,party_raw,country-specific,n/a,all,Vote intention first choice (raw)
+party_recode,party_raw,AKP/CHP/MHP/HDP/IYI/other/pre_AKP_era/NaN,n/a,all,"Mapped per spec; -1/-2/2/5 -> NaN; WV2-4 -> pre_AKP_era; 792050 = IYI in WV7, 'other' in WV5"
+member_org_church,member_org_church,0..2,more involved,"WV3,5,6,7",Raw active/inactive code
+member_org_church_bin,member_org_church,"0,1",member,"WV3,5,6,7",1 if active or inactive member; WV4 missing battery
+member_org_sport,member_org_sport,0..2 (or 0/1 in WV2),more involved,"WV2,3,5,6,7",Raw membership code
+member_org_sport_bin,member_org_sport,"0,1",member,"WV2,3,5,6,7",Binary
+member_org_labour,member_org_labour,0..2 (or 0/1 in WV2),more involved,"WV2,3,5,6,7",Raw
+member_org_labour_bin,member_org_labour,"0,1",member,"WV2,3,5,6,7",Binary
+member_org_political_party,member_org_political_party,0..2 (or 0/1 in WV2),more involved,"WV2,3,5,6,7",Raw
+member_org_political_party_bin,member_org_political_party,"0,1",member,"WV2,3,5,6,7",Binary
+justif_abortion,justif_abortion,1..10,more justifiable,"WV2,5,6,7",WV3+WV4 missing in Turkey country files
+justif_divorce,justif_divorce,1..10,more justifiable,"WV2,5,6,7",WV3+WV4 missing
+justif_homosex,justif_homosex,1..10,more justifiable,"WV2,5,6,7",WV3+WV4 missing
+welzel_abortlib,welzel_abortlib,0..1 (9 steps),more accepting,"WV2,5,6,7",Welzel composite; WV3/WV4 have column but all NaN (raw justif missing)
+welzel_divorlib,welzel_divorlib,0..1 (9 steps),more accepting,"WV2,5,6,7",Welzel composite; WV3/WV4 have column but all NaN
+welzel_homolib,welzel_homolib,0..1 (9 steps),more accepting,"WV2,5,6,7",Welzel composite; WV3/WV4 have column but all NaN
+child_independence,child_independence,"0,1",mentioned,all,"1 if raw==1 (mentioned as important), 0 if raw==2 (not mentioned)"
+child_obedience,child_obedience,"0,1",mentioned,all,"1 if raw==1 (mentioned as important), 0 if raw==2"
+neighbor_immigrants,neighbor_immigrants,"0,1",would not want,all,"1 if raw==1 (would NOT like as neighbour), 0 if raw==2"
+neighbor_religion,neighbor_religion,"0,1",would not want,WV4-WV7,"1 if raw==1, 0 if raw==2; WV2/3 missing"

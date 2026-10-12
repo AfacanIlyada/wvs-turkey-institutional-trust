@@ -1,0 +1,103 @@
+==============================================================================
+WVS Turkey pooled_extended_v2 — Integrity report
+==============================================================================
+
+Shape: (11704, 54)
+
+Wave distribution:
+wave
+WV2    1030
+WV3    1907
+WV4    3401
+WV5    1346
+WV6    1605
+WV7    2415
+
+
+--- Per-column summary ---
+  wave                             miss%=  0.0  dtype=object      top3: WV4=3401; WV7=2415; WV3=1907
+  year                             miss%=  0.0  dtype=int64       min=1.99e+03  max=2.02e+03  n_unique=6
+  row_in_wave                      miss%=  0.0  dtype=int64       min=0  max=3.4e+03  n_unique=3401
+  conf_military                    miss%= 1.42  dtype=float64     min=1  max=4  n_unique=4
+  conf_police                      miss%= 1.39  dtype=float64     min=1  max=4  n_unique=4
+  conf_courts                      miss%= 30.5  dtype=float64     min=1  max=4  n_unique=4
+  conf_parliament                  miss%= 3.33  dtype=float64     min=1  max=4  n_unique=4
+  conf_government                  miss%= 2.98  dtype=float64     min=1  max=4  n_unique=4
+  conf_civil_service               miss%= 2.83  dtype=float64     min=1  max=4  n_unique=4
+  rel_person                       miss%= 7.05  dtype=float64     min=1  max=3  n_unique=3
+  rel_attendance                   miss%= 6.91  dtype=float64     min=1  max=8  n_unique=8
+  rel_importance_god               miss%=  4.4  dtype=float64     min=1  max=10  n_unique=10
+  left_right                       miss%= 8.96  dtype=float64     min=1  max=10  n_unique=10
+  life_satisfaction                miss%= 0.21  dtype=float64     min=1  max=10  n_unique=10
+  financial_satisfaction           miss%= 0.48  dtype=float64     min=1  max=10  n_unique=10
+  happiness                        miss%=  0.2  dtype=float64     min=1  max=4  n_unique=4
+  interpersonal_trust              miss%=  1.9  dtype=float64     min=1  max=2  n_unique=2
+  political_interest               miss%= 0.86  dtype=float64     min=1  max=4  n_unique=4
+  freedom_control                  miss%= 9.56  dtype=float64     min=1  max=10  n_unique=10
+  democracy_importance             miss%= 55.0  dtype=float64     min=1  max=10  n_unique=10
+  strong_leader                    miss%=19.09  dtype=float64     min=1  max=4  n_unique=4
+  national_pride                   miss%= 2.32  dtype=float64     min=1  max=5  n_unique=5
+  postmaterialism_index            miss%= 3.55  dtype=float64     min=1  max=3  n_unique=3
+  age                              miss%= 0.21  dtype=float64     min=17  max=95  n_unique=73
+  sex                              miss%=  0.0  dtype=int64       min=1  max=2  n_unique=2
+  education_raw                    miss%= 3.02  dtype=float64     min=0  max=9  n_unique=10
+  income_raw                       miss%= 3.58  dtype=float64     min=1  max=10  n_unique=10
+  marital_status                   miss%=  0.0  dtype=int64       min=-2  max=6  n_unique=8
+  social_class                     miss%=11.81  dtype=float64     min=1  max=5  n_unique=5
+  region                           miss%=  0.0  dtype=int64       min=-5  max=7.92e+05  n_unique=61
+  party_raw                        miss%=  0.0  dtype=int64       min=-5  max=7.92e+05  n_unique=23
+  member_org_church                miss%=38.38  dtype=float64     min=0  max=3  n_unique=4
+  member_org_sport                 miss%= 29.6  dtype=float64     min=0  max=3  n_unique=4
+  member_org_labour                miss%=29.71  dtype=float64     min=0  max=3  n_unique=4
+  member_org_political_party       miss%=29.67  dtype=float64     min=0  max=3  n_unique=4
+  justif_abortion                  miss%=46.27  dtype=float64     min=1  max=10  n_unique=10
+  justif_divorce                   miss%=46.51  dtype=float64     min=1  max=10  n_unique=10
+  justif_homosex                   miss%=46.48  dtype=float64     min=1  max=10  n_unique=10
+  welzel_abortlib                  miss%=46.27  dtype=float64     min=0  max=1  n_unique=10
+  welzel_divorlib                  miss%=46.51  dtype=float64     min=0  max=1  n_unique=10
+  welzel_homolib                   miss%=46.48  dtype=float64     min=0  max=1  n_unique=10
+  child_independence               miss%= 1.29  dtype=float64     min=0  max=1  n_unique=2
+  child_obedience                  miss%= 2.11  dtype=float64     min=0  max=1  n_unique=2
+  neighbor_immigrants              miss%= 0.56  dtype=float64     min=0  max=1  n_unique=2
+  neighbor_religion                miss%=25.54  dtype=float64     min=0  max=1  n_unique=2
+  female                           miss%=  0.0  dtype=int64       min=0  max=1  n_unique=2
+  education_recode                 miss%=11.12  dtype=float64     min=1  max=3  n_unique=3
+  married_dummy                    miss%= 0.26  dtype=float64     min=0  max=1  n_unique=2
+  party_recode                     miss%= 9.08  dtype=object      top3: pre_AKP_era=6338; AKP=2210; CHP=1074
+  member_org_church_bin            miss%=38.38  dtype=float64     min=0  max=1  n_unique=2
+  member_org_sport_bin             miss%= 29.6  dtype=float64     min=0  max=1  n_unique=2
+  member_org_labour_bin            miss%=29.71  dtype=float64     min=0  max=1  n_unique=2
+  member_org_political_party_bin   miss%=29.67  dtype=float64     min=0  max=1  n_unique=2
+  cluster                          miss%= 3.36  dtype=float64     min=0  max=2  n_unique=3
+
+
+--- Sanity check: mean confidence by cluster ---
+(Expected from earlier profiling — military: 2.755 / 3.518 / 3.709)
+         conf_military  conf_police  conf_courts
+cluster                                         
+0                2.755        1.923        2.087
+1                3.518        3.116        2.940
+2                3.709        3.525        3.445
+
+
+--- party_recode × wave (WV5/WV6/WV7 only) ---
+wave          WV5  WV6   WV7
+party_recode                
+AKP           451  649  1110
+CHP           160  395   519
+HDP             0    0   208
+IYI             0    0   113
+MHP            88  123   261
+other         154   64     8
+NaN           493  374   196
+
+
+--- member_org_*_bin rates by wave ---
+      member_org_church_bin  member_org_sport_bin  member_org_labour_bin  member_org_political_party_bin
+wave                                                                                                    
+WV2                     NaN                 0.000                  0.000                           0.000
+WV3                   0.031                 0.071                  0.051                           0.088
+WV4                     NaN                   NaN                    NaN                             NaN
+WV5                   0.027                 0.036                  0.027                           0.051
+WV6                   0.024                 0.044                  0.026                           0.049
+WV7                   0.057                 0.090                  0.060                           0.087

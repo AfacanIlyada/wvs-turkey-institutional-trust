@@ -1,0 +1,25 @@
+# Raw World Values Survey files (must be downloaded by each user; not redistributed)
+F000*.xlsx
+F000*.pdf
+F000*.csv
+F000*.sav
+F000*.dta
+*WVS*Wave*7*.xlsx
+*_Data_Turkey_*.xlsx
+*Results_Turkey*.pdf
+data/raw/
+
+# Respondent-level files that the scripts regenerate locally
+results/pooled_*.csv
+results/mgcfa_input.csv
+
+# Working files
+.DS_Store
+.claude/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.venv/
+venv/

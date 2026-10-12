@@ -1,0 +1,19 @@
+cluster,cluster_name,wave,year,n,conf_military_mean,conf_police_mean,conf_courts_mean,army_rank,police_rank,courts_rank,spread,army_police_gap,wv7_flag
+0,Distrusters,WV2,1990,305,2.9406,1.6722,2.0033,1,3,2,1.2684,1.2684,0
+0,Distrusters,WV3,1996,546,3.3971,2.1144,2.5138,1,3,2,1.2827,1.2827,0
+0,Distrusters,WV4,2001,842,2.6842,1.685,,1,2,MISSING,0.9992,0.9992,0
+0,Distrusters,WV5,2007,396,2.8604,2.0025,2.1628,1,3,2,0.8579,0.8579,0
+0,Distrusters,WV6,2011,371,2.1087,1.8162,1.7108,1,2,3,0.3979,0.2925,0
+0,Distrusters,WV7,2018,510,2.4597,2.2736,1.8939,1,2,3,0.5658,0.1861,1
+1,Selective trusters,WV2,1990,436,3.5977,2.9885,2.9145,1,2,3,0.6832,0.6092,0
+1,Selective trusters,WV3,1996,514,3.4066,2.6101,2.3659,1,2,3,1.0407,0.7965,0
+1,Selective trusters,WV4,2001,1472,3.6395,3.0853,,1,2,MISSING,0.5542,0.5542,0
+1,Selective trusters,WV5,2007,506,3.7406,3.3597,3.3454,1,2,3,0.3952,0.3809,0
+1,Selective trusters,WV6,2011,650,3.2272,3.2531,3.0093,2,1,3,0.2438,-0.0259,0
+1,Selective trusters,WV7,2018,898,3.4308,3.2806,3.0033,1,2,3,0.4275,0.1502,1
+2,Generalised trusters,WV2,1990,219,3.9178,3.7671,3.656,1,2,3,0.2618,0.1507,0
+2,Generalised trusters,WV3,1996,786,3.828,3.4687,3.4115,1,2,3,0.4165,0.3593,0
+2,Generalised trusters,WV4,2001,1009,3.7185,3.5298,,1,2,MISSING,0.1887,0.1887,0
+2,Generalised trusters,WV5,2007,387,3.7023,3.4275,3.4611,1,3,2,0.2749,0.2749,0
+2,Generalised trusters,WV6,2011,519,3.5992,3.4971,3.4662,1,2,3,0.1331,0.1021,0
+2,Generalised trusters,WV7,2018,945,3.614,3.5646,3.4051,1,2,3,0.2089,0.0494,1

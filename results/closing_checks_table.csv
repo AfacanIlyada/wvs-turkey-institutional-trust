@@ -1,0 +1,91 @@
+check,institution,wave,quantity,estimate,se,ci90_lo,ci90_hi,ci95_lo,ci95_hi,p,decision_courts,decision_base,notes
+gate,military,WV4,nr_x_WV4,0.7161550449862613,0.18281647091465306,,,,,8.952986582085882e-05,,,"layer4b refit = published, n=8915"
+0_audit,military,,max_dev_all_params_20reps,2.3164440132728004e-07,,,,,,,,,custom vs OrderedModel gtol=1e-9; runtimes 32ms vs 3.8s
+0_audit,military,WV4,max_dev_nr_x_WV4_20reps,6.654263962069251e-08,,,,,,,,,
+0c_forensics,civil_service,,nonconverged_replicate,134.0,,,,,,,,,custom grad_inf 1.29e-03; sm-tight converged=True grad_inf 4.27e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+0c_forensics,government,,nonconverged_replicate,366.0,,,,,,,,,custom grad_inf 1.01e-03; sm-tight converged=True grad_inf 5.64e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+0c_forensics,civil_service,,nonconverged_replicate,418.0,,,,,,,,,custom grad_inf 1.27e-03; sm-tight converged=True grad_inf 5.01e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+0c_forensics,police,,nonconverged_replicate,454.0,,,,,,,,,custom grad_inf 1.40e-03; sm-tight converged=False grad_inf 5.48e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+0c_forensics,police,,nonconverged_replicate,734.0,,,,,,,,,custom grad_inf 1.07e-03; sm-tight converged=False grad_inf 3.01e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+0c_forensics,police,,nonconverged_replicate,820.0,,,,,,,,,custom grad_inf 1.15e-03; sm-tight converged=True grad_inf 7.48e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+0c_forensics,parliament,,nonconverged_replicate,882.0,,,,,,,,,custom grad_inf 1.05e-03; sm-tight converged=True grad_inf 7.43e-06; persistence_test dropped the whole replicate (all contrasts lost it)
+1_equivalence,military,WV2,nr_level,-0.763075799974792,0.14104097987719688,-0.9846908101765919,-0.524191231258634,-1.0305038026924678,-0.4827074807460653,0.001998001998001998,NON-EQUIVALENT,NON-EQUIVALENT,n=8777; B_used=1000
+1_equivalence,military,WV3,nr_level,-0.3364927707154638,0.12235038720659691,-0.5431191181793263,-0.14244307390224098,-0.576588870245396,-0.10008836042781642,0.00999000999000999,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=1000
+1_equivalence,military,WV4,nr_level,-0.025130101506385616,0.10370107776890167,-0.18942734029916455,0.14717923212862558,-0.22132780803392985,0.17727799090948976,0.8411588411588412,EQUIVALENT,EQUIVALENT,n=8777; B_used=1000
+1_equivalence,military,WV5,nr_level,-0.08854087736910499,0.1837623549559435,-0.390083760236637,0.21563493824233554,-0.4509348045923344,0.28496268415774434,0.6113886113886113,EQUIVALENT,EQUIVALENT,n=8777; B_used=1000
+1_equivalence,military,WV6,nr_level,-0.33203305905470887,0.14040422103190647,-0.5519017137527462,-0.09528530977773422,-0.5895751443348706,-0.048422907163934714,0.01998001998001998,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=1000
+1_equivalence,military,WV7,nr_level,-0.08074453953187966,0.09375412038065059,-0.2307859015854888,0.07405032644686535,-0.25160939364043816,0.11259623638740919,0.37962037962037964,EQUIVALENT,EQUIVALENT,n=8777; B_used=1000
+1_equivalence,police,WV2,nr_level,-0.7603668565247651,0.14809311685235604,-1.0056250627537968,-0.5323436830549347,-1.0653755767461892,-0.474273384216028,0.002004008016032064,NON-EQUIVALENT,NON-EQUIVALENT,n=8748; B_used=997
+1_equivalence,police,WV3,nr_level,-0.4048009625458161,0.12017067209292853,-0.5965334572080054,-0.2101225522257651,-0.6396664018708049,-0.17815529906978947,0.002004008016032064,NON-EQUIVALENT,EQUIVALENT,n=8748; B_used=997
+1_equivalence,police,WV4,nr_level,-0.24047402149493624,0.10429300979729267,-0.41387052306427885,-0.07696471017859409,-0.45129860163482416,-0.05459759930461877,0.018036072144288578,EQUIVALENT,EQUIVALENT,n=8748; B_used=997
+1_equivalence,police,WV5,nr_level,-0.4487843916026292,0.13565731376028856,-0.6756092803993853,-0.23921783677641068,-0.7065366107635934,-0.20419164766067932,0.006012024048096192,NON-EQUIVALENT,EQUIVALENT,n=8748; B_used=997
+1_equivalence,police,WV6,nr_level,-0.5354368455298982,0.13334716321586423,-0.7514700050471252,-0.3096659712293071,-0.8014838062049597,-0.27922473251934854,0.002004008016032064,NON-EQUIVALENT,EQUIVALENT,n=8748; B_used=997
+1_equivalence,police,WV7,nr_level,-0.13764803921842572,0.08936074032963226,-0.27377074880564506,0.01829020585941323,-0.3078925191809651,0.04242044806975045,0.1402805611222445,EQUIVALENT,EQUIVALENT,n=8748; B_used=997
+1_equivalence,courts,WV2,nr_level,-0.5270264444932735,0.16072399668608037,-0.7930359686761932,-0.26581390611183725,-0.8426536479357991,-0.21575119288443403,0.003996003996003996,NON-EQUIVALENT,NON-EQUIVALENT,n=6110; B_used=1000
+1_equivalence,courts,WV3,nr_level,-0.22224584510149542,0.12943608621477665,-0.4287613844088219,-0.00203834218933677,-0.4655756097781825,0.029900945527067915,0.0999000999000999,NON-EQUIVALENT,EQUIVALENT,n=6110; B_used=1000
+1_equivalence,courts,WV5,nr_level,-0.4382362572089349,0.14982564879480634,-0.6871789417136892,-0.1915490911860656,-0.7320349780971439,-0.14812866692245175,0.003996003996003996,NON-EQUIVALENT,EQUIVALENT,n=6110; B_used=1000
+1_equivalence,courts,WV6,nr_level,-0.4501111679149427,0.14667283241851953,-0.6818107215245938,-0.21354522392493558,-0.7351749390220199,-0.18119709180502966,0.007992007992007992,NON-EQUIVALENT,EQUIVALENT,n=6110; B_used=1000
+1_equivalence,courts,WV7,nr_level,-0.43673654450956395,0.0779478532704966,-0.5611013365595164,-0.30783709836901346,-0.5822968614843214,-0.28166824162107024,0.001998001998001998,NON-EQUIVALENT,EQUIVALENT,n=6110; B_used=1000
+1_equivalence,parliament,WV2,nr_level,-0.9259324267145146,0.1621304330981851,-1.1972220594661318,-0.6679184430075573,-1.2602885527874703,-0.6089694368236722,0.002,NON-EQUIVALENT,NON-EQUIVALENT,n=8777; B_used=999
+1_equivalence,parliament,WV3,nr_level,-0.25674199271962095,0.12625367843367916,-0.4595070170004839,-0.05191590715795072,-0.48622369450368114,-0.007929859131756823,0.048,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,parliament,WV4,nr_level,-0.0526601775464397,0.10541954897370753,-0.22468992449257275,0.11884967125946545,-0.254174993849985,0.1535002152560883,0.578,EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,parliament,WV5,nr_level,-0.48616318922981916,0.12950697062269673,-0.7071319738630399,-0.28059105237919996,-0.7410999283438857,-0.23424113090495716,0.002,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,parliament,WV6,nr_level,-0.4011607543180745,0.11606411689945781,-0.5912180786233349,-0.21765710972512498,-0.6328063948806603,-0.1827002828546655,0.002,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,parliament,WV7,nr_level,-0.07635866740475428,0.06656327569547124,-0.18365690319758812,0.034452203336225395,-0.2019572885847811,0.053207060897347495,0.232,EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,government,WV2,nr_level,-0.4291940647737532,0.153426815054678,-0.6824241712216195,-0.1809014116123013,-0.7167629431991365,-0.1443505552047866,0.004,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,government,WV3,nr_level,-0.3497401730046162,0.12155052137617632,-0.5404958678449666,-0.14156624177616228,-0.5818270943642833,-0.1195981695909823,0.008,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,government,WV4,nr_level,-0.05305690645945321,0.10694792863690934,-0.23139698996128205,0.11996333363974386,-0.2697246163771753,0.15948067858941756,0.616,EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,government,WV5,nr_level,-0.5958870605030524,0.1321927783757252,-0.8084049808191556,-0.3793338944639537,-0.8711111291154622,-0.348632684792258,0.002,NON-EQUIVALENT,NON-EQUIVALENT,n=8777; B_used=999
+1_equivalence,government,WV6,nr_level,-0.47333934052476645,0.11654224294352261,-0.6639530834074795,-0.27678753399110695,-0.6972888777181381,-0.24372951958155387,0.002,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,government,WV7,nr_level,-0.5550488342404302,0.07134708341722694,-0.6703747246634338,-0.437767906433272,-0.6849426819280172,-0.405828770630843,0.002,NON-EQUIVALENT,EQUIVALENT,n=8777; B_used=999
+1_equivalence,civil_service,WV2,nr_level,-0.7832381092776166,0.151429378299749,-1.0364853721826905,-0.5398329845635468,-1.0738224230081554,-0.49611253659289833,0.002002002002002002,NON-EQUIVALENT,NON-EQUIVALENT,n=8711; B_used=998; civil-service 8711 subset
+1_equivalence,civil_service,WV3,nr_level,-0.21787224271498618,0.11604194449088731,-0.39619985237598776,-0.02450271586824584,-0.43569494728975233,0.0046316939062945265,0.05405405405405406,EQUIVALENT,EQUIVALENT,n=8711; B_used=998; civil-service 8711 subset
+1_equivalence,civil_service,WV4,nr_level,-0.12137095529222242,0.10562510861521249,-0.28992925034743716,0.07043582629795632,-0.31560486045305025,0.1011217795786557,0.25425425425425424,EQUIVALENT,EQUIVALENT,n=8711; B_used=998; civil-service 8711 subset
+1_equivalence,civil_service,WV5,nr_level,-0.2940216747146722,0.1407940076967197,-0.5211354716104796,-0.06209657453993969,-0.5502636462483492,-0.01988053031051222,0.03403403403403404,NON-EQUIVALENT,EQUIVALENT,n=8711; B_used=998; civil-service 8711 subset
+1_equivalence,civil_service,WV6,nr_level,-0.5408684560883026,0.1259924625111409,-0.7431960481604826,-0.33801355959946777,-0.7891896839969239,-0.3066415517224298,0.002002002002002002,NON-EQUIVALENT,EQUIVALENT,n=8711; B_used=998; civil-service 8711 subset
+1_equivalence,civil_service,WV7,nr_level,-0.43272097647238855,0.08138687469169796,-0.5667889676789518,-0.29827057173126137,-0.5877213712662112,-0.2732332590256904,0.002002002002002002,NON-EQUIVALENT,EQUIVALENT,n=8711; B_used=998; civil-service 8711 subset
+1f_pp_translation,military,WV5,pp_gap_at_margin,5.30321584207174,,,,,,,,,P0=87.7%; CI-implied pp gap -2.8 to +5.8
+1f_pp_translation,military,WV6,pp_gap_at_margin,8.437767054337808,,,,,,,,,P0=76.1%; CI-implied pp gap +0.9 to +12.3
+1f_pp_translation,military,WV7,pp_gap_at_margin,7.261316638909543,,,,,,,,,P0=81.2%; CI-implied pp gap -1.7 to +4.2
+2a_parliament_precision,parliament,WV7,wv5_gradient_in_ci,-0.48616318922981916,,-0.184,0.034,-0.202,0.053,,,,WV5 gradient outside the WV7 95% CI
+2b_wv7_minus_wv5,military,WV7-WV5,level_change,0.007796337837225331,0.2010528339139507,-0.32822275428094794,0.3370658656052225,-0.38417183420947726,0.40265865082314617,0.973026973026973,,,replicate-paired bootstrap difference
+2b_wv7_minus_wv5,police,WV7-WV5,level_change,0.31113635238420345,0.1603239418323832,0.06323113194851103,0.5889822157017915,0.010956714455746388,0.6290108577552708,0.04008016032064128,,,replicate-paired bootstrap difference
+2b_wv7_minus_wv5,courts,WV7-WV5,level_change,0.0014997126993709364,0.16725342113459601,-0.26877902696672185,0.2818360837853467,-0.32135991046450374,0.3313252878599559,0.987012987012987,,,replicate-paired bootstrap difference
+2b_wv7_minus_wv5,parliament,WV7-WV5,level_change,0.4098045218250649,0.14081487617461652,0.18104072897448692,0.6622473065187429,0.15018564146930968,0.7037423201354078,0.004,,,replicate-paired bootstrap difference
+2b_wv7_minus_wv5,government,WV7-WV5,level_change,0.040838226262622235,0.1445819786779909,-0.19024300055919816,0.2907398657788676,-0.23559206719601017,0.3469941528631145,0.77,,,replicate-paired bootstrap difference
+2b_wv7_minus_wv5,civil_service,WV7-WV5,level_change,-0.13869930175771633,0.15683360912345193,-0.3967214995905286,0.11546470709139249,-0.44630569389596164,0.15860288725032118,0.35035035035035034,,,replicate-paired bootstrap difference
+3_rotation,military,WV7,nr_level_joint,0.07389196072585177,0.1029658298313031,,,,,0.4729819072966701,,,party_axis 2c spec; n=4221; corr=+0.247; cond=5.9
+3_rotation,military,WV7,chp_level_joint,-0.38874486682159626,0.13885518814672718,,,,,0.0051159252401418165,,,party_axis 2c spec; n=4221
+3_rotation,police,WV7,nr_level_joint,-0.18218553884245503,0.10102322500672255,,,,,0.07132502170434685,,,party_axis 2c spec; n=4223; corr=+0.248; cond=5.9
+3_rotation,police,WV7,chp_level_joint,0.08851093474213545,0.13639869416623432,,,,,0.5163943796817732,,,party_axis 2c spec; n=4223
+3_rotation,courts,WV7,nr_level_joint,-0.41297115905252185,0.09811448837072946,,,,,2.5641920853081146e-05,,,party_axis 2c spec; n=4215; corr=+0.247; cond=5.9
+3_rotation,courts,WV7,chp_level_joint,0.20891371981405468,0.1357512415062176,,,,,0.12381767821741141,,,party_axis 2c spec; n=4215
+3_rotation,parliament,WV7,nr_level_joint,0.0636249141476864,0.09791172278171217,,,,,0.5158090365307926,,,party_axis 2c spec; n=4196; corr=+0.245; cond=5.9
+3_rotation,parliament,WV7,chp_level_joint,0.14876707200576267,0.1346565932846408,,,,,0.2692511922715062,,,party_axis 2c spec; n=4196
+3_rotation,government,WV7,nr_level_joint,-0.3830171582793876,0.09849083660040751,,,,,0.00010071584037341097,,,party_axis 2c spec; n=4212; corr=+0.247; cond=5.9
+3_rotation,government,WV7,chp_level_joint,0.03123146099673879,0.13510714602064314,,,,,0.8171899683909936,,,party_axis 2c spec; n=4212
+3_rotation,civil_service,WV7,nr_level_joint,-0.36582451961548956,0.10075668599503115,,,,,0.00028257510766582783,,,party_axis 2c spec; n=4186; corr=+0.244; cond=5.9
+3_rotation,civil_service,WV7,chp_level_joint,0.034835001949769816,0.13738108874573388,,,,,0.7998318291907447,,,party_axis 2c spec; n=4186
+4_ledger,,,army nr x WV4 (headline),8.952986582085882e-05,,,,,,,,,C1; layer4b_longwindow_interactions.csv; survives; PRIMARY
+4_ledger,,,"army nr x WV4, education joint",0.001,,,,,,,,,C1; education_defense_table.csv; survives
+4_ledger,,,"army nr x WV4, weighted",2.3029098613847054e-05,,,,,,,,,C1; preflight_refits_table.csv; survives
+4_ledger,,,"army nr x WV4, no rel_attendance",6.264102505437741e-05,,,,,,,,,C1; preflight_refits_table.csv; survives
+4_ledger,,,"army nr x WV4, no left_right",0.0001139329210906,,,,,,,,,C1; preflight_refits_table.csv; survives
+4_ledger,,,"army nr x WV4, binary y>=3",3.994027633780206e-05,,,,,,,,,C1; preflight_refits_table.csv; survives
+4_ledger,,,"army nr x WV4, god-importance cut",0.014,,,,,,,,,C1; final_checks.ipynb cell 9 markdown; does NOT survive; FLAG .01<p<.05; exact SE not stored (preflight_diagnostics item 4)
+4_ledger,,,parliament nr x WV4 (collapse universal),2.4262455098345015e-06,,,,,,,,,C1; placebo_models_full.csv; survives
+4_ledger,,,government nr x WV4,0.0384754431067062,,,,,,,,,C1; placebo_models_full.csv; does NOT survive; FLAG .01<p<.05
+4_ledger,,,civil service nr x WV4,0.0002226142761758,,,,,,,,,C1; placebo_models_full.csv; survives
+4_ledger,,,persistence: army-parl WV5 level (bootstrap),0.0421686746987951,,,,,,,,,C1; persistence_test_table.csv; does NOT survive; FLAG .01<p<.05
+4_ledger,,,persistence: army-gov WV5 level (bootstrap),0.0180722891566265,,,,,,,,,C1; persistence_test_table.csv; does NOT survive; FLAG .01<p<.05
+4_ledger,,,persistence: joint army-parl WV5-7,0.2238915617134561,,,,,,,,,C1; persistence_test_table.csv; does NOT survive; NULL - claim restated
+4_ledger,,,persistence: joint army-gov WV5-7,8.038393218834372e-07,,,,,,,,,C1; persistence_test_table.csv; survives
+4_ledger,,,persistence: joint army-civil WV5-7,0.0010271130414888,,,,,,,,,C1; persistence_test_table.csv; survives
+4_ledger,,,courts nr total WV5,0.00517,,,,,,,,,C2; layer4b_total_effects_by_wave.csv; does NOT survive
+4_ledger,,,courts nr total WV6,0.00111,,,,,,,,,C2; layer4b_total_effects_by_wave.csv; survives
+4_ledger,,,courts nr total WV7,0.0,,,,,,,,,C2; layer4b_total_effects_by_wave.csv; survives; stored 0.00000 at 5dp -> p < 5e-06
+4_ledger,,,army mean drop WV5->WV6 (Mann-Whitney),5.250228131826677e-31,,,,,,,,,"C3; layer1_transitions.csv; survives; flip itself is descriptive, 4-method reproducibility"
+4_ledger,,,MGCFA metric/scalar invariance,,,,,,,,,,"C4; mgcfa_delta_fit.csv; N/A; delta-CFI criteria, not p-tests: N/A"
+4_ledger,,,CHP x WV7 interaction,4.652944696204031e-12,,,,,,,,,C5; party_axis_table.csv; survives
+4_ledger,,,CHP level @WV7,0.0051159252401418,,,,,,,,,C5; party_axis_table.csv; does NOT survive
+4_ledger,,,"CHP level @WV7, weighted",0.0097984764403671,,,,,,,,,C5; party_axis_table.csv; does NOT survive

@@ -1,0 +1,229 @@
+check,institution,wave,term,coef,se,z,p,n,notes
+0_gate_baseline,conf_military,,not_religious_dummy,-0.7362519202373734,0.1568049479962,-4.695336018702775,2.66168820139967e-06,8915.0,layer4b baseline refit; equals published layer4b_longwindow_interactions.csv
+0_gate_baseline,conf_military,WV3,nr_x_WV3,0.37455051622351526,0.19966847577153138,1.8758620497112968,0.060674224959748946,8915.0,layer4b baseline refit; equals published layer4b_longwindow_interactions.csv
+0_gate_baseline,conf_military,WV4,nr_x_WV4,0.7161550449862613,0.18281647091465306,3.9173442163238925,8.952986582078104e-05,8915.0,layer4b baseline refit; equals published layer4b_longwindow_interactions.csv
+0_gate_baseline,conf_military,WV5,nr_x_WV5,0.6351974597135058,0.22349573723191307,2.8421010064025762,0.004481729001769352,8915.0,layer4b baseline refit; equals published layer4b_longwindow_interactions.csv
+0_gate_baseline,conf_military,WV6,nr_x_WV6,0.4023260489742649,0.2061123639458222,1.9519743564729508,0.05094124922259757,8915.0,layer4b baseline refit; equals published layer4b_longwindow_interactions.csv
+0_gate_baseline,conf_military,WV7,nr_x_WV7,0.6511293069964907,0.18194864320188808,3.5786433772633592,0.00034538237487335977,8915.0,layer4b baseline refit; equals published layer4b_longwindow_interactions.csv
+1a_merge_validation,,WV2,merge_validation,,,,,1030.0,rows_match=True; agree age=1.0000 conf_military=1.0000 income_raw=1.0000
+1a_merge_validation,,WV3,merge_validation,,,,,1907.0,rows_match=True; agree age=1.0000 conf_military=1.0000 income_raw=1.0000
+1a_merge_validation,,WV4,merge_validation,,,,,3401.0,rows_match=True; agree age=1.0000 conf_military=1.0000 income_raw=1.0000
+1a_merge_validation,,WV5,merge_validation,,,,,1346.0,rows_match=True; agree age=1.0000 conf_military=1.0000 income_raw=1.0000
+1a_merge_validation,,WV6,merge_validation,,,,,1605.0,rows_match=True; agree age=1.0000 conf_military=1.0000 income_raw=1.0000
+1a_merge_validation,,WV7,merge_validation,,,,,2415.0,rows_match=True; agree age=1.0000 conf_military=1.0000 income_raw=1.0000
+1b_weight_dist,conf_military,WV2,cal_weight,1.0,,,,759.0,min=1.0000 max=1.0000 cv=0.0000; weight var: V376
+1b_weight_dist,conf_military,WV3,cal_weight,1.0817414928909952,,,,1266.0,min=0.3430 max=5.3581 cv=0.8419; weight var: V236
+1b_weight_dist,conf_military,WV4,cal_weight,1.0207771952041964,,,,2669.0,min=0.3163 max=5.5361 cv=0.7620; weight var: V245
+1b_weight_dist,conf_military,WV5,cal_weight,0.9965418975563909,,,,1064.0,min=0.7014 max=1.7313 cv=0.2468; weight var: V259
+1b_weight_dist,conf_military,WV6,cal_weight,0.9944942560854559,,,,1327.0,min=0.6560 max=2.1132 cv=0.3553; weight var: V258
+1b_weight_dist,conf_military,WV7,cal_weight,1.0,,,,1830.0,min=1.0000 max=1.0000 cv=0.0000; weight var: W_WEIGHT
+1c_weighted,conf_military,,not_religious_dummy,-0.7070410985237098,0.13475675049547756,-5.246795399295697,1.5476760983901272e-07,8915.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_military,WV3,nr_x_WV3,0.507445234714461,0.19790533791441808,2.5640805855064905,0.01034495227830301,8915.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_military,WV4,nr_x_WV4,0.7760235076453456,0.18331425229974335,4.233296090783183,2.3029098613847054e-05,8915.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_military,WV5,nr_x_WV5,0.583519619534468,0.22616241506202822,2.580091034907058,0.00987742729284835,8915.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_military,WV6,nr_x_WV6,0.439303525766843,0.19416394870654727,2.262539100040612,0.023664115925496887,8915.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_military,WV7,nr_x_WV7,0.6383270856587686,0.15654458877085248,4.077605560631302,4.5501873399356185e-05,8915.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_police,,not_religious_dummy,-0.6837063163160447,0.14265779294583267,-4.792632089686463,1.6460732399359301e-06,8911.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_police,WV3,nr_x_WV3,0.3359319603339699,0.20805547786482084,1.6146268475191687,0.10639152781476291,8911.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_police,WV4,nr_x_WV4,0.47370888020612273,0.18487051769258558,2.562381963974569,0.010395691761593495,8911.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_police,WV5,nr_x_WV5,0.2792750533154354,0.1908440417344525,1.4633679457702384,0.1433667247821202,8911.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_police,WV6,nr_x_WV6,0.16577984691394845,0.19381959971677087,0.8553306639586657,0.39236811640768376,8911.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_police,WV7,nr_x_WV7,0.5469603388575238,0.16302665211084533,3.355036319372085,0.0007935456524776896,8911.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_courts,,not_religious_dummy,-0.49639791320611654,0.15750699615856611,-3.1515927883379904,0.0016238255979077465,6231.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_courts,WV3,nr_x_WV3,0.2111805641120008,0.21985903395420775,0.9605271173709674,0.33678998985090125,6231.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_courts,WV5,nr_x_WV5,0.09097513019535737,0.21092805598133213,0.43130881651613473,0.666243840585647,6231.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_courts,WV6,nr_x_WV6,0.027127217936566188,0.2102918299108133,0.12899796415329634,0.8973592597403728,6231.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+1c_weighted,conf_courts,WV7,nr_x_WV7,0.07031551074850421,0.17199135245852315,0.4088316635887916,0.6826632013956102,6231.0,"pseudo-ML, per-wave calibration weight; sandwich (Huber-White) SE; no clustering adjustment (no PSU ids in WV2-WV6)"
+2_placebo_full,conf_parliament,,not_religious_dummy,-0.891054962382595,0.1554962456908463,-5.730395344426308,1.001968308322887e-08,8873.0,
+2_placebo_full,conf_parliament,WV3,nr_x_WV3,0.631532789194272,0.19428661538036637,3.2505213390942194,0.0011519362320357995,8873.0,
+2_placebo_full,conf_parliament,WV4,nr_x_WV4,0.8414791221330477,0.17849761941440467,4.714231623333015,2.4262455098345015e-06,8873.0,
+2_placebo_full,conf_parliament,WV5,nr_x_WV5,0.41006990327056214,0.2081537565085473,1.970033643153222,0.04883451492791546,8873.0,
+2_placebo_full,conf_parliament,WV6,nr_x_WV6,0.4923406582700527,0.20076112453229245,2.45237049462163,0.014191845450344465,8873.0,
+2_placebo_full,conf_parliament,WV7,nr_x_WV7,0.809962815669371,0.17737817764679809,4.566304753013071,4.963969544968805e-06,8873.0,
+2_placebo_full,conf_parliament,WV2,nr_total_WV2,-0.891054962382595,0.1554962456908463,-5.730395344426308,1.001968308322887e-08,8873.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_parliament,WV3,nr_total_WV3,-0.25952217318832294,0.12196146963663548,-2.127902967728475,0.0333451294869862,8873.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_parliament,WV4,nr_total_WV4,-0.04957584024954731,0.09403652638191405,-0.5271976981391582,0.598056307002838,8873.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_parliament,WV5,nr_total_WV5,-0.4809850591120328,0.14280696235819193,-3.3680784968005573,0.000756940414474716,8873.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_parliament,WV6,nr_total_WV6,-0.3987143041125423,0.13096365437890864,-3.0444653213399806,0.002330943018011178,8873.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_parliament,WV7,nr_total_WV7,-0.08109214671322396,0.08893413946187001,-0.9118224700199831,0.3618621797613386,8873.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_government,,not_religious_dummy,-0.4254594948383532,0.15657318304312337,-2.7173203390849707,0.006581287522734236,8861.0,
+2_placebo_full,conf_government,WV3,nr_x_WV3,0.06412089827232723,0.19562406121559836,0.3277761328227371,0.7430809345188993,8861.0,
+2_placebo_full,conf_government,WV4,nr_x_WV4,0.37333258638959715,0.1803753945124039,2.0697534017807744,0.03847544310670625,8861.0,
+2_placebo_full,conf_government,WV5,nr_x_WV5,-0.16025698046211878,0.2096895991163624,-0.7642581279064198,0.44471343272473307,8861.0,
+2_placebo_full,conf_government,WV6,nr_x_WV6,-0.01586657162211089,0.20185350781721478,-0.07860438886441652,0.9373472965340854,8861.0,
+2_placebo_full,conf_government,WV7,nr_x_WV7,-0.12604095492483267,0.17875691518769085,-0.7050969457181134,0.48074990714680466,8861.0,
+2_placebo_full,conf_government,WV2,nr_total_WV2,-0.4254594948383532,0.15657318304312337,-2.7173203390849707,0.006581287522734236,8861.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_government,WV3,nr_total_WV3,-0.36133859656602596,0.12258078000802021,-2.9477589924161385,0.003200865027589206,8861.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_government,WV4,nr_total_WV4,-0.05212690844875606,0.09595520314510506,-0.5432421248687148,0.5869631064021503,8861.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_government,WV5,nr_total_WV5,-0.585716475300472,0.14399694734747742,-4.067561751063279,4.750762148497678e-05,8861.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_government,WV6,nr_total_WV6,-0.44132606646046413,0.13138838608849204,-3.358942746760162,0.0007824127563758054,8861.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_government,WV7,nr_total_WV7,-0.5515004497631859,0.09010287487505687,-6.120786384762263,9.311467152883779e-10,8861.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_civil_service,,not_religious_dummy,-0.7609841852434905,0.15146357346925118,-5.024205938188689,5.055197049852467e-07,8863.0,
+2_placebo_full,conf_civil_service,WV3,nr_x_WV3,0.5400491388808781,0.19016635128064485,2.8398774822359667,0.00451308635647707,8863.0,
+2_placebo_full,conf_civil_service,WV4,nr_x_WV4,0.6453533317771898,0.1748040792618322,3.6918665428313044,0.00022261427617586982,8863.0,
+2_placebo_full,conf_civil_service,WV5,nr_x_WV5,0.460638425547052,0.20668226234199233,2.2287274211506563,0.025832046606643955,8863.0,
+2_placebo_full,conf_civil_service,WV6,nr_x_WV6,0.21961450829083765,0.19965906316574816,1.0999476047251777,0.2713549514000082,8863.0,
+2_placebo_full,conf_civil_service,WV7,nr_x_WV7,0.334436031429312,0.17575665634413987,1.902835650073306,0.057061993811641454,8863.0,
+2_placebo_full,conf_civil_service,WV2,nr_total_WV2,-0.7609841852434905,0.15146357346925118,-5.024205938188689,5.055197049852467e-07,8863.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_civil_service,WV3,nr_total_WV3,-0.2209350463626124,0.1214758193109545,-1.8187574088062877,0.06894844890035068,8863.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_civil_service,WV4,nr_total_WV4,-0.11563085346630075,0.09464220889108785,-1.2217683295976975,0.22179524826512953,8863.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_civil_service,WV5,nr_total_WV5,-0.30034575969643856,0.14495851069464472,-2.071942918405924,0.03827076483654501,8863.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_civil_service,WV6,nr_total_WV6,-0.5413696769526529,0.13414596358872735,-4.03567623258808,5.444525382558574e-05,8863.0,delta-method SE (layer4b wave_total)
+2_placebo_full,conf_civil_service,WV7,nr_total_WV7,-0.42654815381417854,0.09330595896856707,-4.571499596910784,4.842462215437493e-06,8863.0,delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_military,,not_religious_dummy,-0.7630757921145542,0.16165174343624733,-4.72049218829179,2.3527464461103875e-06,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_military,WV3,nr_x_WV3,0.4265830231923129,0.20423932626766822,2.0886429219476055,0.036739878413053706,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_military,WV4,nr_x_WV4,0.737945701129511,0.18713205460632024,3.9434489333319567,8.031810033704012e-05,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_military,WV5,nr_x_WV5,0.6745349116098741,0.2275522821292346,2.964307390363956,0.0030336508651349625,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_military,WV6,nr_x_WV6,0.4310427269969092,0.2100081198706249,2.0525050520068095,0.04012060458179967,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_military,WV7,nr_x_WV7,0.6823312522336908,0.18638781087142073,3.660814776693717,0.00025141446749810115,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_military,WV2,nr_total_WV2,-0.7630757921145542,0.16165174343624733,-4.72049218829179,2.3527464461103875e-06,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_military,WV3,nr_total_WV3,-0.33649276892224134,0.13127015746564966,-2.563360747169772,0.010366427581677273,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_military,WV4,nr_total_WV4,-0.025130090985043263,0.10160159432133543,-0.2473395339207405,0.8046454653918624,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_military,WV5,nr_total_WV5,-0.08854088050468012,0.1640498526629629,-0.5397193540099396,0.5893905906740571,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_military,WV6,nr_total_WV6,-0.332033065117645,0.13854785611894327,-2.3965225765211033,0.016551473808727346,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_military,WV7,nr_total_WV7,-0.08074453988086339,0.09661728165420513,-0.8357152933555867,0.40331508959055085,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_police,,not_religious_dummy,-0.7603668797672101,0.15644436994568167,-4.860301972076167,1.1720683357197004e-06,8748.0,cell-15 common sample; outcome missing on 29 common rows
+2_placebo_common_8777,conf_police,WV3,nr_x_WV3,0.35556591267185667,0.19459639469246848,1.8271968154074862,0.0676701825264967,8748.0,cell-15 common sample; outcome missing on 29 common rows
+2_placebo_common_8777,conf_police,WV4,nr_x_WV4,0.5198928324390517,0.1798508859047119,2.890688193298641,0.0038439930067899475,8748.0,cell-15 common sample; outcome missing on 29 common rows
+2_placebo_common_8777,conf_police,WV5,nr_x_WV5,0.3115824839222615,0.21010501403421736,1.4829845225469855,0.1380785229778747,8748.0,cell-15 common sample; outcome missing on 29 common rows
+2_placebo_common_8777,conf_police,WV6,nr_x_WV6,0.22493003011045232,0.20447332032159657,1.1000458629843803,0.27131213969483525,8748.0,cell-15 common sample; outcome missing on 29 common rows
+2_placebo_common_8777,conf_police,WV7,nr_x_WV7,0.6227188777954415,0.18136279002943081,3.4335536947484613,0.0005957241988192585,8748.0,cell-15 common sample; outcome missing on 29 common rows
+2_placebo_common_8777,conf_police,WV2,nr_total_WV2,-0.7603668797672101,0.15644436994568167,-4.860301972076167,1.1720683357197004e-06,8748.0,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_police,WV3,nr_total_WV3,-0.4048009670953534,0.12151363474045747,-3.3313213612610055,0.0008643475639700249,8748.0,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_police,WV4,nr_total_WV4,-0.24047404732815836,0.09545884891982856,-2.519138351753239,0.011764242164819194,8748.0,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_police,WV5,nr_total_WV5,-0.44878439584494856,0.14463703278595136,-3.1028318764607508,0.0019167849727326214,8748.0,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_police,WV6,nr_total_WV6,-0.5354368496567578,0.135836845735032,-3.9417644510179457,8.088438984454882e-05,8748.0,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_police,WV7,nr_total_WV7,-0.13764800197176852,0.09499179992676542,-1.4490514136787511,0.14732322503890005,8748.0,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_courts,,not_religious_dummy,-0.5270264411346182,0.15932594970464825,-3.3078506176275595,0.000940149437938409,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+2_placebo_common_8777,conf_courts,WV3,nr_x_WV3,0.3047805996924793,0.19608506148418678,1.5543285010370778,0.12010607842570287,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+2_placebo_common_8777,conf_courts,WV5,nr_x_WV5,0.08879017769707581,0.21411326786394808,0.4146878826467442,0.6783704040228469,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+2_placebo_common_8777,conf_courts,WV6,nr_x_WV6,0.07691527993654475,0.20680702237262508,0.3719181247044828,0.7099538100367995,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+2_placebo_common_8777,conf_courts,WV7,nr_x_WV7,0.09028989747687814,0.18167240372255627,0.4969929148665072,0.6191940476617184,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+2_placebo_common_8777,conf_courts,WV2,nr_total_WV2,-0.5270264411346182,0.15932594970464825,-3.3078506176275595,0.000940149437938409,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_courts,WV3,nr_total_WV3,-0.22224584144213888,0.12396483871441158,-1.7928135408956218,0.07300274359326742,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_courts,WV5,nr_total_WV5,-0.43823626343754235,0.1497420607161301,-2.926607670161012,0.0034268086599005265,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_courts,WV6,nr_total_WV6,-0.45011116119807343,0.13833086798356395,-3.253873613021457,0.00113842916410678,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_courts,WV7,nr_total_WV7,-0.43673654365774,0.09279220847978013,-4.706607923367908,2.5187266845527745e-06,6110.0,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_parliament,,not_religious_dummy,-0.925932401798415,0.15921195733731833,-5.815721490294008,6.0372913335271505e-09,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_parliament,WV3,nr_x_WV3,0.6691904396778762,0.19749348917589934,3.3884177269350673,0.0007029711459538568,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_parliament,WV4,nr_x_WV4,0.8732722435322412,0.18202905926704108,4.797433151874555,1.6071181829779846e-06,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_parliament,WV5,nr_x_WV5,0.43976929108160734,0.21100879461137384,2.0841277819322834,0.037148545580667935,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_parliament,WV6,nr_x_WV6,0.5247716023967643,0.20387059395661927,2.5740426425030587,0.010051788368775405,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_parliament,WV7,nr_x_WV7,0.849573749024294,0.18068475502529127,4.701966963983073,2.5766719635722524e-06,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_parliament,WV2,nr_total_WV2,-0.925932401798415,0.15921195733731833,-5.815721490294008,6.0372913335271505e-09,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_parliament,WV3,nr_total_WV3,-0.2567419621205388,0.12241048369028282,-2.0973854067118554,0.03595947186937165,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_parliament,WV4,nr_total_WV4,-0.05266015826617376,0.09462705429668827,-0.5565021405090568,0.5778676315627542,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_parliament,WV5,nr_total_WV5,-0.4861631107168076,0.14300049365476408,-3.399730296669581,0.0006745235034129049,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_parliament,WV6,nr_total_WV6,-0.4011607994016506,0.1313739210154151,-3.0535801649292282,0.0022612829633079645,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_parliament,WV7,nr_total_WV7,-0.07635865277412102,0.08913321364462665,-0.8566801268779818,0.391621689302585,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_government,,not_religious_dummy,-0.42919408353547117,0.1571858292590971,-2.730488400630629,0.006324055853219823,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_government,WV3,nr_x_WV3,0.079453909012814,0.19657247522264978,0.4041965128781114,0.6860682178173074,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_government,WV4,nr_x_WV4,0.37613716958290555,0.18127052327267915,2.0750045997114217,0.03798610847279971,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_government,WV5,nr_x_WV5,-0.166693013345719,0.2103345920957678,-0.7925135456074754,0.4280612967063735,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_government,WV6,nr_x_WV6,-0.04414528417535018,0.20256362766082206,-0.21793292648405874,0.82748137205119,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_government,WV7,nr_x_WV7,-0.12585474481105532,0.17936812797529322,-0.7016561204696912,0.4828936439261977,8777.0,cell-15 common sample
+2_placebo_common_8777,conf_government,WV2,nr_total_WV2,-0.42919408353547117,0.1571858292590971,-2.730488400630629,0.006324055853219823,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_government,WV3,nr_total_WV3,-0.34974017452265715,0.12337343944726484,-2.8348093081424652,0.004585304644787458,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_government,WV4,nr_total_WV4,-0.05305691395256562,0.09660897411621756,-0.549192395819666,0.5828734223385563,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_government,WV5,nr_total_WV5,-0.5958870968811902,0.14428584560506666,-4.129906813674767,3.629103019764379e-05,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_government,WV6,nr_total_WV6,-0.47333936771082136,0.13182587540865132,-3.590640807379441,0.00032986596761075404,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_government,WV7,nr_total_WV7,-0.5550488283465265,0.09031077680584063,-6.145986647195245,7.946796554136881e-10,8777.0,cell-15 common sample; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_civil_service,,not_religious_dummy,-0.7832380048051018,0.15614831404839974,-5.0159875857662435,5.276173560275765e-07,8711.0,cell-15 common sample; outcome missing on 66 common rows
+2_placebo_common_8777,conf_civil_service,WV3,nr_x_WV3,0.565365816528249,0.1946183397570493,2.9049976340052033,0.0036725587637735924,8711.0,cell-15 common sample; outcome missing on 66 common rows
+2_placebo_common_8777,conf_civil_service,WV4,nr_x_WV4,0.6618670626993405,0.17931463416966414,3.69109339995694,0.00022329211932237136,8711.0,cell-15 common sample; outcome missing on 66 common rows
+2_placebo_common_8777,conf_civil_service,WV5,nr_x_WV5,0.489216334482301,0.21079282444864697,2.3208396005030196,0.02029550235350608,8711.0,cell-15 common sample; outcome missing on 66 common rows
+2_placebo_common_8777,conf_civil_service,WV6,nr_x_WV6,0.24236950786844078,0.20358348052787598,1.1905165745275386,0.23384341947995724,8711.0,cell-15 common sample; outcome missing on 66 common rows
+2_placebo_common_8777,conf_civil_service,WV7,nr_x_WV7,0.35051704595907457,0.17993112169206618,1.9480623622129631,0.05140750165943597,8711.0,cell-15 common sample; outcome missing on 66 common rows
+2_placebo_common_8777,conf_civil_service,WV2,nr_total_WV2,-0.7832380048051018,0.15614831404839974,-5.0159875857662435,5.276173560275765e-07,8711.0,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_civil_service,WV3,nr_total_WV3,-0.21787218827685273,0.1226746231362094,-1.7760167727186946,0.07573015264681304,8711.0,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_civil_service,WV4,nr_total_WV4,-0.12137094210576127,0.09537300266287829,-1.2725922296352536,0.20316277734630228,8711.0,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_civil_service,WV5,nr_total_WV5,-0.29402167032280074,0.14598769658957564,-2.0140167780672797,0.04400777198877148,8711.0,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_civil_service,WV6,nr_total_WV6,-0.540868496936661,0.13470577383939603,-4.0151842160939255,5.939938126120481e-05,8711.0,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+2_placebo_common_8777,conf_civil_service,WV7,nr_total_WV7,-0.4327209588460272,0.09361853673368983,-4.622171782891229,3.7974334350376893e-06,8711.0,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+2d_anchor,conf_parliament,WV4,nr_x_WV4,0.8414791221330477,,,,,full basis; stored +0.841 -> MATCH
+2d_anchor,conf_civil_service,WV4,nr_x_WV4,0.6453533317771898,,,,,full basis; stored +0.645 -> MATCH
+2d_anchor,conf_military,WV5,nr_x_WV5,0.6745349116098741,,,,,common basis; stored +0.675 -> MATCH
+2d_anchor,conf_parliament,WV5,nr_x_WV5,0.43976929108160734,,,,,common basis; stored +0.440 -> MATCH
+2d_anchor,conf_government,WV5,nr_x_WV5,-0.166693013345719,,,,,common basis; stored -0.167 -> MATCH
+3a_no_rel_attendance,conf_military,,not_religious_dummy,-0.7550688613656074,0.1556638289676396,-4.8506378544920405,1.2306506487202995e-06,9116.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_military,WV3,nr_x_WV3,0.3899830071922044,0.19845677268789103,1.9650778449648723,0.04940522841162087,9116.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_military,WV4,nr_x_WV4,0.7261395434890567,0.18141539937603604,4.0026345392207965,6.264102505437741e-05,9116.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_military,WV5,nr_x_WV5,0.5647186765771579,0.21978871196772523,2.5693706993473064,0.010188340507387483,9116.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_military,WV6,nr_x_WV6,0.40722980993000174,0.20534440590775702,1.9831551199545894,0.04735010525782357,9116.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_military,WV7,nr_x_WV7,0.5866697223608893,0.1795766747616503,3.2669594931500328,0.0010870923364074692,9116.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_police,,not_religious_dummy,-0.7654455873121415,0.15120658831812145,-5.062250235431086,4.1433668962476133e-07,9110.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_police,WV3,nr_x_WV3,0.31237243808316423,0.18947371526737558,1.6486320418764169,0.09922304024559447,9110.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_police,WV4,nr_x_WV4,0.4808138870368408,0.17446898998524393,2.755870181156586,0.0058536224662086855,9110.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_police,WV5,nr_x_WV5,0.2314965105134898,0.2038722271135503,1.1354980214374844,0.2561667104352452,9110.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_police,WV6,nr_x_WV6,0.17372510973725544,0.20015518156570075,0.8679520978587824,0.38542055671235653,9110.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_police,WV7,nr_x_WV7,0.5700458900537733,0.17514368785556053,3.2547327113717346,0.0011349913088127828,9110.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_courts,,not_religious_dummy,-0.5811204234999537,0.15323835231257987,-3.7922648914585566,0.00014927955670041015,6390.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_courts,WV3,nr_x_WV3,0.3046800929839576,0.19045150394282082,1.5997778262514093,0.10964787955531596,6390.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_courts,WV5,nr_x_WV5,0.0964877430847985,0.20696321418221955,0.4662072120693218,0.6410671875224532,6390.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_courts,WV6,nr_x_WV6,0.09107115828954976,0.20188108957692644,0.45111287283223844,0.6519082003126586,6390.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3a_no_rel_attendance,conf_courts,WV7,nr_x_WV7,0.09778932026906088,0.17511521293240015,0.5584284690720193,0.5765518370833622,6390.0,rel_attendance dropped from controls; layer4b sample logic re-applied
+3b_descriptive,,WV2,mean_rel_attendance_nr0,4.10840108401084,,,,738.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV2,mean_rel_attendance_nr1,5.515748031496063,,,,254.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV3,mean_rel_attendance_nr0,3.6221804511278197,,,,1064.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV3,mean_rel_attendance_nr1,5.154494382022472,,,,356.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV4,mean_rel_attendance_nr0,4.115773115773115,,,,2574.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV4,mean_rel_attendance_nr1,5.128985507246377,,,,690.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV5,mean_rel_attendance_nr0,3.9916743755781683,,,,1081.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV5,mean_rel_attendance_nr1,5.373333333333333,,,,225.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV6,mean_rel_attendance_nr0,3.963105303612606,,,,1301.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV6,mean_rel_attendance_nr1,5.186046511627907,,,,258.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV7,mean_rel_attendance_nr0,3.385423506237689,,,,1523.0,full pooled file; scale 1=+weekly..8=never
+3b_descriptive,,WV7,mean_rel_attendance_nr1,4.5928571428571425,,,,560.0,full pooled file; scale 1=+weekly..8=never
+4b_no_left_right_same8915,conf_military,,not_religious_dummy,-0.7651012127642122,0.15661625415250469,-4.885196730725004,1.0332563233905745e-06,8915.0,left_right dropped; original layer4b sample held fixed (spec effect)
+4a_no_left_right_enlarged,conf_military,,not_religious_dummy,-0.7623774876810665,0.15014865139923017,-5.077484749789603,3.824641943150908e-07,9652.0,left_right dropped; sample logic re-applied (spec + composition)
+4b_no_left_right_same8915,conf_military,WV3,nr_x_WV3,0.3551932994862675,0.19929896850213719,1.782213436204807,0.0747144325316973,8915.0,left_right dropped; original layer4b sample held fixed (spec effect)
+4a_no_left_right_enlarged,conf_military,WV3,nr_x_WV3,0.3566167063037222,0.19293539084966527,1.8483737210328457,0.06454829762291503,9652.0,left_right dropped; sample logic re-applied (spec + composition)
+4b_no_left_right_same8915,conf_military,WV4,nr_x_WV4,0.6571049252856201,0.18243375845249982,3.601882298865811,0.0003159214042458558,8915.0,left_right dropped; original layer4b sample held fixed (spec effect)
+4a_no_left_right_enlarged,conf_military,WV4,nr_x_WV4,0.6807391392439136,0.17641093517118417,3.858826203621355,0.00011393292109063147,9652.0,left_right dropped; sample logic re-applied (spec + composition)
+4b_no_left_right_same8915,conf_military,WV5,nr_x_WV5,0.5750683490416733,0.22279306079822722,2.581177111088233,0.009846405204981368,8915.0,left_right dropped; original layer4b sample held fixed (spec effect)
+4a_no_left_right_enlarged,conf_military,WV5,nr_x_WV5,0.5617103390598256,0.21252819190266933,2.64299213215473,0.008217694483025229,9652.0,left_right dropped; sample logic re-applied (spec + composition)
+4b_no_left_right_same8915,conf_military,WV6,nr_x_WV6,0.35081661704904954,0.20566911487126238,1.7057331008043748,0.08805778378785889,8915.0,left_right dropped; original layer4b sample held fixed (spec effect)
+4a_no_left_right_enlarged,conf_military,WV6,nr_x_WV6,0.3436285754745513,0.19878059542174345,1.7286826953379966,0.08386590010701944,9652.0,left_right dropped; sample logic re-applied (spec + composition)
+4b_no_left_right_same8915,conf_military,WV7,nr_x_WV7,0.6481603831713101,0.18187740100940009,3.5637213836028523,0.000365634047303276,8915.0,left_right dropped; original layer4b sample held fixed (spec effect)
+4a_no_left_right_enlarged,conf_military,WV7,nr_x_WV7,0.6555005764468582,0.17494547617441283,3.74688497685618,0.00017904413446645506,9652.0,left_right dropped; sample logic re-applied (spec + composition)
+5a_cutpoint_logit,conf_military,,not_religious_dummy,-1.6365360004518406,0.6649452982576985,-2.461158842298639,0.013848903726960904,8915.0,binary logit at cutpoint y>=2 (informal Brant)
+5a_cutpoint_logit,conf_military,WV3,nr_x_WV3,1.3247380891501261,0.7655128583303243,1.7305236283549035,0.08353676340361438,8915.0,binary logit at cutpoint y>=2 (informal Brant)
+5a_cutpoint_logit,conf_military,WV4,nr_x_WV4,1.6344038905994223,0.6823514957985405,2.3952521547369314,0.016608938751421,8915.0,binary logit at cutpoint y>=2 (informal Brant)
+5a_cutpoint_logit,conf_military,WV5,nr_x_WV5,1.2851188299975416,0.7219692831913803,1.7800187070519466,0.07507289923509286,8915.0,binary logit at cutpoint y>=2 (informal Brant)
+5a_cutpoint_logit,conf_military,WV6,nr_x_WV6,1.6395214324268637,0.6981583506672068,2.3483518185523775,0.018856700631957768,8915.0,binary logit at cutpoint y>=2 (informal Brant)
+5a_cutpoint_logit,conf_military,WV7,nr_x_WV7,1.0378208091624503,0.7254512222250674,1.4305866161191356,0.15254872551542453,8915.0,binary logit at cutpoint y>=2 (informal Brant)
+5a_cutpoint_logit,conf_military,,not_religious_dummy,-1.2266496212106899,0.29453159639590953,-4.164747131448086,3.116978368700174e-05,8915.0,binary logit at cutpoint y>=3 (informal Brant)
+5a_cutpoint_logit,conf_military,WV3,nr_x_WV3,0.7937918569347243,0.3685825820444622,2.1536336647589307,0.03126891203774118,8915.0,binary logit at cutpoint y>=3 (informal Brant)
+5a_cutpoint_logit,conf_military,WV4,nr_x_WV4,1.3228100085319503,0.3220220068966178,4.107824869735149,3.994027633780206e-05,8915.0,binary logit at cutpoint y>=3 (informal Brant)
+5a_cutpoint_logit,conf_military,WV5,nr_x_WV5,1.0222438603870896,0.354403967876922,2.8844029780786653,0.003921565766791035,8915.0,binary logit at cutpoint y>=3 (informal Brant)
+5a_cutpoint_logit,conf_military,WV6,nr_x_WV6,0.9743589731069326,0.3333153603485271,2.9232345370705572,0.0034641547338092327,8915.0,binary logit at cutpoint y>=3 (informal Brant)
+5a_cutpoint_logit,conf_military,WV7,nr_x_WV7,1.207462246686121,0.3285367251476536,3.6752732777239854,0.00023759495611974657,8915.0,binary logit at cutpoint y>=3 (informal Brant)
+5a_cutpoint_logit,conf_military,,not_religious_dummy,-0.8847311631292957,0.17973142331975944,-4.922517981484373,8.543771135016698e-07,8915.0,binary logit at cutpoint y>=4 (informal Brant)
+5a_cutpoint_logit,conf_military,WV3,nr_x_WV3,0.44137201807951343,0.22447995087394518,1.9661979448995968,0.04927574978555871,8915.0,binary logit at cutpoint y>=4 (informal Brant)
+5a_cutpoint_logit,conf_military,WV4,nr_x_WV4,0.8831165455233093,0.2051113901938354,4.305546097116996,1.6657429770639e-05,8915.0,binary logit at cutpoint y>=4 (informal Brant)
+5a_cutpoint_logit,conf_military,WV5,nr_x_WV5,0.9312043417917697,0.24308953776451925,3.830705139987666,0.00012777655308249258,8915.0,binary logit at cutpoint y>=4 (informal Brant)
+5a_cutpoint_logit,conf_military,WV6,nr_x_WV6,0.573112086552982,0.24013047253083103,2.3866695489028302,0.017001765661690538,8915.0,binary logit at cutpoint y>=4 (informal Brant)
+5a_cutpoint_logit,conf_military,WV7,nr_x_WV7,0.7261547475751379,0.2081399246785458,3.488781639066226,0.0004852273547004682,8915.0,binary logit at cutpoint y>=4 (informal Brant)
+5a_po_contrast,conf_military,,not_religious_dummy_y2_vs_y3,-0.4098863792411507,0.7272558772196637,-0.5636068295634368,0.5730217378604987,8915.0,conservative independence SE (upper bound; same-sample fits)
+5a_po_contrast,conf_military,,not_religious_dummy_y2_vs_y4,-0.7518048373225449,0.6888073999338031,-1.0914587116729524,0.2750710901299538,8915.0,conservative independence SE (upper bound; same-sample fits)
+5a_po_contrast,conf_military,,not_religious_dummy_y3_vs_y4,-0.3419184580813942,0.3450394844131168,-0.99095458209071,0.32170775818692965,8915.0,conservative independence SE (upper bound; same-sample fits)
+5a_po_contrast,conf_military,,nr_x_WV4_y2_vs_y3,0.31159388206747196,0.7545208656784986,0.4129692050163158,0.6796291760814679,8915.0,conservative independence SE (upper bound; same-sample fits)
+5a_po_contrast,conf_military,,nr_x_WV4_y2_vs_y4,0.751287345076113,0.7125126288043977,1.0544196898471534,0.2916908114938681,8915.0,conservative independence SE (upper bound; same-sample fits)
+5a_po_contrast,conf_military,,nr_x_WV4_y3_vs_y4,0.439693463008641,0.3817968770340757,1.1516423770260382,0.24946805999974542,8915.0,conservative independence SE (upper bound; same-sample fits)
+5b_binary_high,conf_military,,not_religious_dummy,-1.2266496212106899,0.29453159639590953,-4.164747131448086,3.116978368700174e-05,8915.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_military,WV3,nr_x_WV3,0.7937918569347243,0.3685825820444622,2.1536336647589307,0.03126891203774118,8915.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_military,WV4,nr_x_WV4,1.3228100085319503,0.3220220068966178,4.107824869735149,3.994027633780206e-05,8915.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_military,WV5,nr_x_WV5,1.0222438603870896,0.354403967876922,2.8844029780786653,0.003921565766791035,8915.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_military,WV6,nr_x_WV6,0.9743589731069326,0.3333153603485271,2.9232345370705572,0.0034641547338092327,8915.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_military,WV7,nr_x_WV7,1.207462246686121,0.3285367251476536,3.6752732777239854,0.00023759495611974657,8915.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_police,,not_religious_dummy,-0.5886822814502792,0.18274068481148775,-3.221407876727364,0.0012756246452851894,8911.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_police,WV3,nr_x_WV3,0.15805657225988337,0.23174111160440655,0.6820394153010437,0.49521402795618297,8911.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_police,WV4,nr_x_WV4,0.4243804034636058,0.21019973586670848,2.01893880462682,0.043493580353121564,8911.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_police,WV5,nr_x_WV5,0.07539363718950737,0.25093291517842753,0.30045335876283197,0.7638313681329889,8911.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_police,WV6,nr_x_WV6,0.01750756007806374,0.24220036922452118,0.07228543925890604,0.9423747521696357,8911.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_police,WV7,nr_x_WV7,0.4364989178307843,0.22921889061669878,1.9042885892014043,0.05687260951330009,8911.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_courts,,not_religious_dummy,-0.4536673810613021,0.17663139128116206,-2.5684414178629993,0.010215697751748465,6231.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_courts,WV3,nr_x_WV3,0.3666121144554456,0.2212303119603163,1.657151369570041,0.09748887561180908,6231.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_courts,WV5,nr_x_WV5,0.04797375418215257,0.24263008811829664,0.19772384601683243,0.8432611316054197,6231.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_courts,WV6,nr_x_WV6,-0.054582663802525494,0.2315612928619459,-0.23571583630372556,0.8136531805245995,6231.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"
+5b_binary_high,conf_courts,WV7,nr_x_WV7,0.14435289164196707,0.2099502114633361,0.687557733978161,0.4917313321318906,6231.0,"binary logit, high confidence (y>=3) vs not; identical spec + constant"

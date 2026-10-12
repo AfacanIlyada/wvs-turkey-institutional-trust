@@ -1,0 +1,16 @@
+"lhs","rhs","group","est","std.all","pvalue"
+"inst_conf","conf_military",1,1,0.626718569188086,NA
+"inst_conf","conf_police",1,1.28175169062746,0.803297585604451,0
+"inst_conf","conf_courts",1,1.27817396920952,0.801055361156447,0
+"inst_conf","conf_parliament",1,1.23398964076748,0.773364222054712,0
+"inst_conf","conf_government",1,1.3044780146182,0.817540594858835,0
+"inst_conf","conf_military",2,1,0.634605561096799,NA
+"inst_conf","conf_police",2,1.23065676394395,0.780981626200223,0
+"inst_conf","conf_courts",2,1.2750830238969,0.809174777825096,0
+"inst_conf","conf_parliament",2,1.27751934400313,0.81072088011312,0
+"inst_conf","conf_government",2,1.25086746843071,0.7938074516612,0
+"inst_conf","conf_military",3,1,0.751829032644626,NA
+"inst_conf","conf_police",3,1.09095116111902,0.820208756126641,0
+"inst_conf","conf_courts",3,1.11461872648714,0.838002718902413,0
+"inst_conf","conf_parliament",3,0.97468313552089,0.732795078913701,0
+"inst_conf","conf_government",3,1.15182567558744,0.86597598345215,0

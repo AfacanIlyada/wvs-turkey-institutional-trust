@@ -1,0 +1,107 @@
+sample_basis,institution,term_type,wave,term,coef,se,z,p,n,notes
+full,conf_parliament,main,,not_religious_dummy,-0.891054962382595,0.1554962456908463,-5.730395344426308,1.001968308322887e-08,8873,
+full,conf_parliament,interaction,WV3,nr_x_WV3,0.631532789194272,0.19428661538036637,3.2505213390942194,0.0011519362320357995,8873,
+full,conf_parliament,interaction,WV4,nr_x_WV4,0.8414791221330477,0.17849761941440467,4.714231623333015,2.4262455098345015e-06,8873,
+full,conf_parliament,interaction,WV5,nr_x_WV5,0.41006990327056214,0.2081537565085473,1.970033643153222,0.04883451492791546,8873,
+full,conf_parliament,interaction,WV6,nr_x_WV6,0.4923406582700527,0.20076112453229245,2.45237049462163,0.014191845450344465,8873,
+full,conf_parliament,interaction,WV7,nr_x_WV7,0.809962815669371,0.17737817764679809,4.566304753013071,4.963969544968805e-06,8873,
+full,conf_parliament,total,WV2,nr_total_WV2,-0.891054962382595,0.1554962456908463,-5.730395344426308,1.001968308322887e-08,8873,delta-method SE (layer4b wave_total)
+full,conf_parliament,total,WV3,nr_total_WV3,-0.25952217318832294,0.12196146963663548,-2.127902967728475,0.0333451294869862,8873,delta-method SE (layer4b wave_total)
+full,conf_parliament,total,WV4,nr_total_WV4,-0.04957584024954731,0.09403652638191405,-0.5271976981391582,0.598056307002838,8873,delta-method SE (layer4b wave_total)
+full,conf_parliament,total,WV5,nr_total_WV5,-0.4809850591120328,0.14280696235819193,-3.3680784968005573,0.000756940414474716,8873,delta-method SE (layer4b wave_total)
+full,conf_parliament,total,WV6,nr_total_WV6,-0.3987143041125423,0.13096365437890864,-3.0444653213399806,0.002330943018011178,8873,delta-method SE (layer4b wave_total)
+full,conf_parliament,total,WV7,nr_total_WV7,-0.08109214671322396,0.08893413946187001,-0.9118224700199831,0.3618621797613386,8873,delta-method SE (layer4b wave_total)
+full,conf_government,main,,not_religious_dummy,-0.4254594948383532,0.15657318304312337,-2.7173203390849707,0.006581287522734236,8861,
+full,conf_government,interaction,WV3,nr_x_WV3,0.06412089827232723,0.19562406121559836,0.3277761328227371,0.7430809345188993,8861,
+full,conf_government,interaction,WV4,nr_x_WV4,0.37333258638959715,0.1803753945124039,2.0697534017807744,0.03847544310670625,8861,
+full,conf_government,interaction,WV5,nr_x_WV5,-0.16025698046211878,0.2096895991163624,-0.7642581279064198,0.44471343272473307,8861,
+full,conf_government,interaction,WV6,nr_x_WV6,-0.01586657162211089,0.20185350781721478,-0.07860438886441652,0.9373472965340854,8861,
+full,conf_government,interaction,WV7,nr_x_WV7,-0.12604095492483267,0.17875691518769085,-0.7050969457181134,0.48074990714680466,8861,
+full,conf_government,total,WV2,nr_total_WV2,-0.4254594948383532,0.15657318304312337,-2.7173203390849707,0.006581287522734236,8861,delta-method SE (layer4b wave_total)
+full,conf_government,total,WV3,nr_total_WV3,-0.36133859656602596,0.12258078000802021,-2.9477589924161385,0.003200865027589206,8861,delta-method SE (layer4b wave_total)
+full,conf_government,total,WV4,nr_total_WV4,-0.05212690844875606,0.09595520314510506,-0.5432421248687148,0.5869631064021503,8861,delta-method SE (layer4b wave_total)
+full,conf_government,total,WV5,nr_total_WV5,-0.585716475300472,0.14399694734747742,-4.067561751063279,4.750762148497678e-05,8861,delta-method SE (layer4b wave_total)
+full,conf_government,total,WV6,nr_total_WV6,-0.44132606646046413,0.13138838608849204,-3.358942746760162,0.0007824127563758054,8861,delta-method SE (layer4b wave_total)
+full,conf_government,total,WV7,nr_total_WV7,-0.5515004497631859,0.09010287487505687,-6.120786384762263,9.311467152883779e-10,8861,delta-method SE (layer4b wave_total)
+full,conf_civil_service,main,,not_religious_dummy,-0.7609841852434905,0.15146357346925118,-5.024205938188689,5.055197049852467e-07,8863,
+full,conf_civil_service,interaction,WV3,nr_x_WV3,0.5400491388808781,0.19016635128064485,2.8398774822359667,0.00451308635647707,8863,
+full,conf_civil_service,interaction,WV4,nr_x_WV4,0.6453533317771898,0.1748040792618322,3.6918665428313044,0.00022261427617586982,8863,
+full,conf_civil_service,interaction,WV5,nr_x_WV5,0.460638425547052,0.20668226234199233,2.2287274211506563,0.025832046606643955,8863,
+full,conf_civil_service,interaction,WV6,nr_x_WV6,0.21961450829083765,0.19965906316574816,1.0999476047251777,0.2713549514000082,8863,
+full,conf_civil_service,interaction,WV7,nr_x_WV7,0.334436031429312,0.17575665634413987,1.902835650073306,0.057061993811641454,8863,
+full,conf_civil_service,total,WV2,nr_total_WV2,-0.7609841852434905,0.15146357346925118,-5.024205938188689,5.055197049852467e-07,8863,delta-method SE (layer4b wave_total)
+full,conf_civil_service,total,WV3,nr_total_WV3,-0.2209350463626124,0.1214758193109545,-1.8187574088062877,0.06894844890035068,8863,delta-method SE (layer4b wave_total)
+full,conf_civil_service,total,WV4,nr_total_WV4,-0.11563085346630075,0.09464220889108785,-1.2217683295976975,0.22179524826512953,8863,delta-method SE (layer4b wave_total)
+full,conf_civil_service,total,WV5,nr_total_WV5,-0.30034575969643856,0.14495851069464472,-2.071942918405924,0.03827076483654501,8863,delta-method SE (layer4b wave_total)
+full,conf_civil_service,total,WV6,nr_total_WV6,-0.5413696769526529,0.13414596358872735,-4.03567623258808,5.444525382558574e-05,8863,delta-method SE (layer4b wave_total)
+full,conf_civil_service,total,WV7,nr_total_WV7,-0.42654815381417854,0.09330595896856707,-4.571499596910784,4.842462215437493e-06,8863,delta-method SE (layer4b wave_total)
+common_8777,conf_military,main,,not_religious_dummy,-0.7630757921145542,0.16165174343624733,-4.72049218829179,2.3527464461103875e-06,8777,cell-15 common sample
+common_8777,conf_military,interaction,WV3,nr_x_WV3,0.4265830231923129,0.20423932626766822,2.0886429219476055,0.036739878413053706,8777,cell-15 common sample
+common_8777,conf_military,interaction,WV4,nr_x_WV4,0.737945701129511,0.18713205460632024,3.9434489333319567,8.031810033704012e-05,8777,cell-15 common sample
+common_8777,conf_military,interaction,WV5,nr_x_WV5,0.6745349116098741,0.2275522821292346,2.964307390363956,0.0030336508651349625,8777,cell-15 common sample
+common_8777,conf_military,interaction,WV6,nr_x_WV6,0.4310427269969092,0.2100081198706249,2.0525050520068095,0.04012060458179967,8777,cell-15 common sample
+common_8777,conf_military,interaction,WV7,nr_x_WV7,0.6823312522336908,0.18638781087142073,3.660814776693717,0.00025141446749810115,8777,cell-15 common sample
+common_8777,conf_military,total,WV2,nr_total_WV2,-0.7630757921145542,0.16165174343624733,-4.72049218829179,2.3527464461103875e-06,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_military,total,WV3,nr_total_WV3,-0.33649276892224134,0.13127015746564966,-2.563360747169772,0.010366427581677273,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_military,total,WV4,nr_total_WV4,-0.025130090985043263,0.10160159432133543,-0.2473395339207405,0.8046454653918624,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_military,total,WV5,nr_total_WV5,-0.08854088050468012,0.1640498526629629,-0.5397193540099396,0.5893905906740571,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_military,total,WV6,nr_total_WV6,-0.332033065117645,0.13854785611894327,-2.3965225765211033,0.016551473808727346,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_military,total,WV7,nr_total_WV7,-0.08074453988086339,0.09661728165420513,-0.8357152933555867,0.40331508959055085,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_police,main,,not_religious_dummy,-0.7603668797672101,0.15644436994568167,-4.860301972076167,1.1720683357197004e-06,8748,cell-15 common sample; outcome missing on 29 common rows
+common_8777,conf_police,interaction,WV3,nr_x_WV3,0.35556591267185667,0.19459639469246848,1.8271968154074862,0.0676701825264967,8748,cell-15 common sample; outcome missing on 29 common rows
+common_8777,conf_police,interaction,WV4,nr_x_WV4,0.5198928324390517,0.1798508859047119,2.890688193298641,0.0038439930067899475,8748,cell-15 common sample; outcome missing on 29 common rows
+common_8777,conf_police,interaction,WV5,nr_x_WV5,0.3115824839222615,0.21010501403421736,1.4829845225469855,0.1380785229778747,8748,cell-15 common sample; outcome missing on 29 common rows
+common_8777,conf_police,interaction,WV6,nr_x_WV6,0.22493003011045232,0.20447332032159657,1.1000458629843803,0.27131213969483525,8748,cell-15 common sample; outcome missing on 29 common rows
+common_8777,conf_police,interaction,WV7,nr_x_WV7,0.6227188777954415,0.18136279002943081,3.4335536947484613,0.0005957241988192585,8748,cell-15 common sample; outcome missing on 29 common rows
+common_8777,conf_police,total,WV2,nr_total_WV2,-0.7603668797672101,0.15644436994568167,-4.860301972076167,1.1720683357197004e-06,8748,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_police,total,WV3,nr_total_WV3,-0.4048009670953534,0.12151363474045747,-3.3313213612610055,0.0008643475639700249,8748,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_police,total,WV4,nr_total_WV4,-0.24047404732815836,0.09545884891982856,-2.519138351753239,0.011764242164819194,8748,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_police,total,WV5,nr_total_WV5,-0.44878439584494856,0.14463703278595136,-3.1028318764607508,0.0019167849727326214,8748,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_police,total,WV6,nr_total_WV6,-0.5354368496567578,0.135836845735032,-3.9417644510179457,8.088438984454882e-05,8748,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_police,total,WV7,nr_total_WV7,-0.13764800197176852,0.09499179992676542,-1.4490514136787511,0.14732322503890005,8748,cell-15 common sample; outcome missing on 29 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_courts,main,,not_religious_dummy,-0.5270264411346182,0.15932594970464825,-3.3078506176275595,0.000940149437938409,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+common_8777,conf_courts,interaction,WV3,nr_x_WV3,0.3047805996924793,0.19608506148418678,1.5543285010370778,0.12010607842570287,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+common_8777,conf_courts,interaction,WV5,nr_x_WV5,0.08879017769707581,0.21411326786394808,0.4146878826467442,0.6783704040228469,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+common_8777,conf_courts,interaction,WV6,nr_x_WV6,0.07691527993654475,0.20680702237262508,0.3719181247044828,0.7099538100367995,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+common_8777,conf_courts,interaction,WV7,nr_x_WV7,0.09028989747687814,0.18167240372255627,0.4969929148665072,0.6191940476617184,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model
+common_8777,conf_courts,total,WV2,nr_total_WV2,-0.5270264411346182,0.15932594970464825,-3.3078506176275595,0.000940149437938409,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+common_8777,conf_courts,total,WV3,nr_total_WV3,-0.22224584144213888,0.12396483871441158,-1.7928135408956218,0.07300274359326742,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+common_8777,conf_courts,total,WV5,nr_total_WV5,-0.43823626343754235,0.1497420607161301,-2.926607670161012,0.0034268086599005265,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+common_8777,conf_courts,total,WV6,nr_total_WV6,-0.45011116119807343,0.13833086798356395,-3.253873613021457,0.00113842916410678,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+common_8777,conf_courts,total,WV7,nr_total_WV7,-0.43673654365774,0.09279220847978013,-4.706607923367908,2.5187266845527745e-06,6110,cell-15 common sample; outcome missing on 2667 common rows; all WV4 rows drop (item not fielded 2001) -> WV4 terms not in model; delta-method SE (layer4b wave_total)
+common_8777,conf_parliament,main,,not_religious_dummy,-0.925932401798415,0.15921195733731833,-5.815721490294008,6.0372913335271505e-09,8777,cell-15 common sample
+common_8777,conf_parliament,interaction,WV3,nr_x_WV3,0.6691904396778762,0.19749348917589934,3.3884177269350673,0.0007029711459538568,8777,cell-15 common sample
+common_8777,conf_parliament,interaction,WV4,nr_x_WV4,0.8732722435322412,0.18202905926704108,4.797433151874555,1.6071181829779846e-06,8777,cell-15 common sample
+common_8777,conf_parliament,interaction,WV5,nr_x_WV5,0.43976929108160734,0.21100879461137384,2.0841277819322834,0.037148545580667935,8777,cell-15 common sample
+common_8777,conf_parliament,interaction,WV6,nr_x_WV6,0.5247716023967643,0.20387059395661927,2.5740426425030587,0.010051788368775405,8777,cell-15 common sample
+common_8777,conf_parliament,interaction,WV7,nr_x_WV7,0.849573749024294,0.18068475502529127,4.701966963983073,2.5766719635722524e-06,8777,cell-15 common sample
+common_8777,conf_parliament,total,WV2,nr_total_WV2,-0.925932401798415,0.15921195733731833,-5.815721490294008,6.0372913335271505e-09,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_parliament,total,WV3,nr_total_WV3,-0.2567419621205388,0.12241048369028282,-2.0973854067118554,0.03595947186937165,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_parliament,total,WV4,nr_total_WV4,-0.05266015826617376,0.09462705429668827,-0.5565021405090568,0.5778676315627542,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_parliament,total,WV5,nr_total_WV5,-0.4861631107168076,0.14300049365476408,-3.399730296669581,0.0006745235034129049,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_parliament,total,WV6,nr_total_WV6,-0.4011607994016506,0.1313739210154151,-3.0535801649292282,0.0022612829633079645,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_parliament,total,WV7,nr_total_WV7,-0.07635865277412102,0.08913321364462665,-0.8566801268779818,0.391621689302585,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_government,main,,not_religious_dummy,-0.42919408353547117,0.1571858292590971,-2.730488400630629,0.006324055853219823,8777,cell-15 common sample
+common_8777,conf_government,interaction,WV3,nr_x_WV3,0.079453909012814,0.19657247522264978,0.4041965128781114,0.6860682178173074,8777,cell-15 common sample
+common_8777,conf_government,interaction,WV4,nr_x_WV4,0.37613716958290555,0.18127052327267915,2.0750045997114217,0.03798610847279971,8777,cell-15 common sample
+common_8777,conf_government,interaction,WV5,nr_x_WV5,-0.166693013345719,0.2103345920957678,-0.7925135456074754,0.4280612967063735,8777,cell-15 common sample
+common_8777,conf_government,interaction,WV6,nr_x_WV6,-0.04414528417535018,0.20256362766082206,-0.21793292648405874,0.82748137205119,8777,cell-15 common sample
+common_8777,conf_government,interaction,WV7,nr_x_WV7,-0.12585474481105532,0.17936812797529322,-0.7016561204696912,0.4828936439261977,8777,cell-15 common sample
+common_8777,conf_government,total,WV2,nr_total_WV2,-0.42919408353547117,0.1571858292590971,-2.730488400630629,0.006324055853219823,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_government,total,WV3,nr_total_WV3,-0.34974017452265715,0.12337343944726484,-2.8348093081424652,0.004585304644787458,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_government,total,WV4,nr_total_WV4,-0.05305691395256562,0.09660897411621756,-0.549192395819666,0.5828734223385563,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_government,total,WV5,nr_total_WV5,-0.5958870968811902,0.14428584560506666,-4.129906813674767,3.629103019764379e-05,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_government,total,WV6,nr_total_WV6,-0.47333936771082136,0.13182587540865132,-3.590640807379441,0.00032986596761075404,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_government,total,WV7,nr_total_WV7,-0.5550488283465265,0.09031077680584063,-6.145986647195245,7.946796554136881e-10,8777,cell-15 common sample; delta-method SE (layer4b wave_total)
+common_8777,conf_civil_service,main,,not_religious_dummy,-0.7832380048051018,0.15614831404839974,-5.0159875857662435,5.276173560275765e-07,8711,cell-15 common sample; outcome missing on 66 common rows
+common_8777,conf_civil_service,interaction,WV3,nr_x_WV3,0.565365816528249,0.1946183397570493,2.9049976340052033,0.0036725587637735924,8711,cell-15 common sample; outcome missing on 66 common rows
+common_8777,conf_civil_service,interaction,WV4,nr_x_WV4,0.6618670626993405,0.17931463416966414,3.69109339995694,0.00022329211932237136,8711,cell-15 common sample; outcome missing on 66 common rows
+common_8777,conf_civil_service,interaction,WV5,nr_x_WV5,0.489216334482301,0.21079282444864697,2.3208396005030196,0.02029550235350608,8711,cell-15 common sample; outcome missing on 66 common rows
+common_8777,conf_civil_service,interaction,WV6,nr_x_WV6,0.24236950786844078,0.20358348052787598,1.1905165745275386,0.23384341947995724,8711,cell-15 common sample; outcome missing on 66 common rows
+common_8777,conf_civil_service,interaction,WV7,nr_x_WV7,0.35051704595907457,0.17993112169206618,1.9480623622129631,0.05140750165943597,8711,cell-15 common sample; outcome missing on 66 common rows
+common_8777,conf_civil_service,total,WV2,nr_total_WV2,-0.7832380048051018,0.15614831404839974,-5.0159875857662435,5.276173560275765e-07,8711,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_civil_service,total,WV3,nr_total_WV3,-0.21787218827685273,0.1226746231362094,-1.7760167727186946,0.07573015264681304,8711,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_civil_service,total,WV4,nr_total_WV4,-0.12137094210576127,0.09537300266287829,-1.2725922296352536,0.20316277734630228,8711,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_civil_service,total,WV5,nr_total_WV5,-0.29402167032280074,0.14598769658957564,-2.0140167780672797,0.04400777198877148,8711,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_civil_service,total,WV6,nr_total_WV6,-0.540868496936661,0.13470577383939603,-4.0151842160939255,5.939938126120481e-05,8711,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)
+common_8777,conf_civil_service,total,WV7,nr_total_WV7,-0.4327209588460272,0.09361853673368983,-4.622171782891229,3.7974334350376893e-06,8711,cell-15 common sample; outcome missing on 66 common rows; delta-method SE (layer4b wave_total)

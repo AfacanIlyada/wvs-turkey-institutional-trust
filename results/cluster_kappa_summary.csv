@@ -1,0 +1,4 @@
+method,kappa_vs_original,agreement_pct,middle_cluster_flip
+k4_kmeans,0.524,69.3,yes
+ward_k3,0.41,60.6,yes
+gmm_k3,0.245,50.1,yes

@@ -1,0 +1,16 @@
+cluster,cluster_name,wave_pair,changed,what_changed,involves_wv7,regime
+0,Distrusters,WV2->WV3,False,ordering stable: [army > courts > police],0,robust (WV2-WV6)
+0,Distrusters,WV3->WV4,False,ordering stable: [army > police],0,robust (WV2-WV6)
+0,Distrusters,WV4->WV5,False,ordering stable: [army > police],0,robust (WV2-WV6)
+0,Distrusters,WV5->WV6,True,WV5 order [army > courts > police]  ->  WV6 order [army > police > courts],0,robust (WV2-WV6)
+0,Distrusters,WV6->WV7,False,ordering stable: [army > police > courts],1,WV7-flagged
+1,Selective trusters,WV2->WV3,False,ordering stable: [army > police > courts],0,robust (WV2-WV6)
+1,Selective trusters,WV3->WV4,False,ordering stable: [army > police],0,robust (WV2-WV6)
+1,Selective trusters,WV4->WV5,False,ordering stable: [army > police],0,robust (WV2-WV6)
+1,Selective trusters,WV5->WV6,True,WV5 order [army > police > courts]  ->  WV6 order [police > army > courts],0,robust (WV2-WV6)
+1,Selective trusters,WV6->WV7,True,WV6 order [police > army > courts]  ->  WV7 order [army > police > courts],1,WV7-flagged
+2,Generalised trusters,WV2->WV3,False,ordering stable: [army > police > courts],0,robust (WV2-WV6)
+2,Generalised trusters,WV3->WV4,False,ordering stable: [army > police],0,robust (WV2-WV6)
+2,Generalised trusters,WV4->WV5,False,ordering stable: [army > police],0,robust (WV2-WV6)
+2,Generalised trusters,WV5->WV6,True,WV5 order [army > courts > police]  ->  WV6 order [army > police > courts],0,robust (WV2-WV6)
+2,Generalised trusters,WV6->WV7,False,ordering stable: [army > police > courts],1,WV7-flagged

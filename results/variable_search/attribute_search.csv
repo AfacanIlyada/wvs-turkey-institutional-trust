@@ -1,0 +1,368 @@
+search_term,wave,var_name,label
+1_interpersonal_trust,WV2,V94,Most people can be trusted
+1_interpersonal_trust,WV3,V27,Most people can be trusted
+1_interpersonal_trust,WV4,V25,Most people can be trusted
+1_interpersonal_trust,WV5,V23,Most people can be trusted
+1_interpersonal_trust,WV6,V24,Most people can be trusted
+1_interpersonal_trust,WV7,Q57,Most people can be trusted
+2_postmaterialism,WV2,V257,Aims of country: first choice
+2_postmaterialism,WV2,V258,Aims of country: second choice
+2_postmaterialism,WV3,V104,Aims of country: first choice
+2_postmaterialism,WV3,V105,Aims of country: second choice
+2_postmaterialism,WV4,V120,Aims of country: first choice
+2_postmaterialism,WV4,V121,Aims of country: second choice
+2_postmaterialism,WV5,V69,Aims of country: first choice
+2_postmaterialism,WV5,V70,Aims of country: second choice
+2_postmaterialism,WV6,V60,Aims of country: first choice
+2_postmaterialism,WV6,V61,Aims of country: second choice
+2_postmaterialism,WV6,Y001,Materialist/postmaterialist 12-item index
+2_postmaterialism,WV7,Q152,Aims of country: first choice
+2_postmaterialism,WV7,Q153,Aims of country: second choice
+2_postmaterialism,WV7,Y001_1,Materialist/postmaterialist 12-item index: Component 1
+2_postmaterialism,WV7,Y001_2,Materialist/postmaterialist 12-item index: Component 2
+2_postmaterialism,WV7,Y001_3,Materialist/postmaterialist 12-item index: Component 3
+2_postmaterialism,WV7,Y001_4,Materialist/postmaterialist 12-item index: Component 4
+2_postmaterialism,WV7,Y001_5,Materialist/postmaterialist 12-item index: Component 5
+3_strong_leader,WV3,V154,Political system: Having a strong leader
+3_strong_leader,WV4,V164,Political system: Having a strong leader
+3_strong_leader,WV5,V148,Political system: Having a strong leader
+3_strong_leader,WV6,V127,Political system: Having a strong leader who does not have  to bother with parliament and elections
+3_strong_leader,WV7,Q235,Political system: Having a strong leader who does not have to bother with parliament and elections
+5_marital_status,WV2,V181,Marital status
+5_marital_status,WV3,V89,Marital status
+5_marital_status,WV4,V106,Marital status
+5_marital_status,WV4,IV67,Where r lived after married
+5_marital_status,WV5,V55,Marital status
+5_marital_status,WV6,V57,Marital status
+5_marital_status,WV6,MN_237C3,"If 'borrow money', the loan was used for: Getting Married"
+5_marital_status,WV7,Q273,Marital status
+6_region_province,WV2,V2,Country/region
+6_region_province,WV2,V370,Region where the interview was conducted
+6_region_province,WV2,N_REGION_ISO,Region ISO
+6_region_province,WV3,V2,Country/region
+6_region_province,WV3,V234,Region
+6_region_province,WV3,N_REGION_ISO,Region ISO
+6_region_province,WV4,V2,Country/region
+6_region_province,WV4,REGION_ISO,Region ISO
+6_region_province,WV5,V2,Country/region
+6_region_province,WV5,V257,Region where the interview was conducted
+6_region_province,WV5,N_REGION_ISO,Region ISO
+6_region_province,WV6,V215_03,I see myself as part of the [Northeast Asia Region]
+6_region_province,WV6,V256,Region where the interview was conducted
+6_region_province,WV6,V256B,Region (2) where the interview was conducted
+6_region_province,WV6,V256C,Region (level 3) where survey was conducted
+6_region_province,WV7,N_REGION_ISO,Region ISO 3166-2
+6_region_province,WV7,N_REGION_WVS,Region country specific
+6_region_province,WV7,Q256,"Feel close to your district, region"
+7_civil_service,WV2,V280,Confidence: The Civil Services
+7_civil_service,WV3,V145,Confidence: The Civil Services
+7_civil_service,WV4,V156,Confidence: The Civil Services
+7_civil_service,WV5,V141,Confidence: The Civil Services
+7_civil_service,WV6,V118,Confidence: The Civil service
+7_civil_service,WV7,Q74,Confidence: The Civil Services
+7_civil_service,WV7,Q116,Involved in corruption: Civil service providers
+8_political_interest,WV2,V241,Interest in politics
+8_political_interest,WV3,V117,Interest in politics
+8_political_interest,WV4,V133,Interest in politics
+8_political_interest,WV5,V95,Interest in politics
+8_political_interest,WV6,V84,Interest in politics
+8_political_interest,WV7,Q199,Interest in politics
+9_member_org,WV2,V20,Member: Belong to religious organization
+9_member_org,WV2,V27,Member: Belong to professional associations
+9_member_org,WV3,V28,Active/Inactive membership of church or religious organization
+9_member_org,WV3,V33,Active/Inactive membership of environmental organization
+9_member_org,WV3,V34,Active/Inactive membership of professional organization
+9_member_org,WV3,V35,Active/Inactive membership of charitable/humanitarian organization
+9_member_org,WV3,V36,Active/Inactive membership of any other organization
+9_member_org,WV5,V24,Active/Inactive membership of church or religious organization
+9_member_org,WV5,V29,Active/Inactive membership of environmental organization
+9_member_org,WV5,V30,Active/Inactive membership of professional organization
+9_member_org,WV5,V31,Active/Inactive membership of charitable/humanitarian organization
+9_member_org,WV5,V33,Active/Inactive membership of any other organization
+9_member_org,WV6,V25,Active/Inactive membership: Church or religious organization
+9_member_org,WV6,V26,Active/Inactive membership: Sport or recreational organization
+9_member_org,WV6,V27,"Active/Inactive membership: Art, music or educational organization"
+9_member_org,WV6,V30,Active/Inactive membership: Environmental organization
+9_member_org,WV6,V31,Active/Inactive membership: Professional association
+9_member_org,WV6,V32,Active/Inactive membership: Humanitarian or charitable organization
+9_member_org,WV6,V33,Active/Inactive membership: Consumer organization
+9_member_org,WV6,V34,"Active/Inactive membership: Self-help group, mutual aid group"
+9_member_org,WV6,V35,Active/Inactive membership: Other organization
+9_member_org,WV7,Q94,Active/Inactive membership: Church or religious organization
+9_member_org,WV7,Q95,"Active/Inactive membership: Sport or recreational organization, football/baseball/rugby team"
+9_member_org,WV7,Q96,"Active/Inactive membership: Art, music or educational organization"
+9_member_org,WV7,Q99,Active/Inactive membership: Environmental organization
+9_member_org,WV7,Q100,Active/Inactive membership: Professional association
+9_member_org,WV7,Q101,Active/Inactive membership: charitable/humanitarian organization
+9_member_org,WV7,Q102,Active/Inactive membership: consumer organization
+9_member_org,WV7,Q103,"Active/Inactive membership: self-help group, mutual aid group"
+9_member_org,WV7,Q104,Active/Inactive membership: women’s group
+9_member_org,WV7,Q105,Active/Inactive membership: other organization
+11_freedom_control_life,WV3,V66,How much freedom of choice and control
+11_freedom_control_life,WV4,V82,How much freedom of choice and control
+11_freedom_control_life,WV5,V46,How much freedom of choice and control
+11_freedom_control_life,WV6,V55,How much freedom of choice and control over own life
+11_freedom_control_life,WV7,Q48,How much freedom of choice and control
+12_national_pride,WV2,V322,How proud of nationality
+12_national_pride,WV3,V205,How proud of nationality
+12_national_pride,WV4,V216,How proud of nationality
+12_national_pride,WV5,V209,How proud of nationality
+12_national_pride,WV6,V211,How proud of nationality
+13_media_news,WV3,V139,Confidence: Television
+13_media_news,WV4,V150,Confidence: Television
+13_media_news,WV5,V134,Confidence: Television
+13_media_news,WV5,V223,Information source: Daily newspaper
+13_media_news,WV5,V226,Information source: In depth reports on radio or TV
+13_media_news,WV6,V111,Confidence: Television
+13_media_news,WV6,V217,Information source: Daily newspaper
+13_media_news,WV6,V219,Information source: TV news
+13_media_news,WV6,V220,Information source: Radio news
+13_media_news,WV6,V217_ESMA,"Used last week: Daily newspaper (ES,MA)"
+13_media_news,WV6,V219_ESMA,"Used last week: TV news (ES,MA)"
+13_media_news,WV6,V220_ESMA,"Used last week: Radio news (ES,MA)"
+13_media_news,WV6,V228C,How often in country's elections: TV news favors the governing party
+13_media_news,WV7,Q67,Confidence: Television
+13_media_news,WV7,Q201,Information source: Daily newspaper
+13_media_news,WV7,Q202,Information source: TV news
+13_media_news,WV7,Q203,Information source: Radio news
+13_media_news,WV7,Q226,How often in country's elections: TV news favors the governing party
+14_child_independence,WV2,V227,Important child qualities: independence
+14_child_independence,WV2,I_INDEP,INDEP- Welzel autonomy-1: Independence as kid quality
+14_child_independence,WV3,V15,Important child qualities: independence
+14_child_independence,WV3,I_INDEP,INDEP- Welzel autonomy-1: Independence as kid quality
+14_child_independence,WV4,V15,Important child qualities: independence
+14_child_independence,WV4,I_INDEP,INDEP- Welzel autonomy-1: Independence as kid quality
+14_child_independence,WV5,V12,Important child qualities: independence
+14_child_independence,WV5,I_INDEP,INDEP- Welzel autonomy-1: Independence as kid quality
+14_child_independence,WV6,V12,Important child qualities: independence
+14_child_independence,WV6,I_INDEP,Emancipative Values-1: Independence as kid quality
+14_child_independence,WV7,Q8,Important child qualities: independence
+14_child_independence,WV7,I_INDEP,INDEP- Welzel autonomy-1: Independence as kid quality
+15_child_obedience,WV2,V236,Important child qualities: obedience
+15_child_obedience,WV2,I_NONOBED,Emancipative Values-1: Obedience not kid quality
+15_child_obedience,WV3,V24,Important child qualities: obedience
+15_child_obedience,WV3,I_NONOBED,Emancipative Values-1: Obedience not kid quality
+15_child_obedience,WV4,V24,Important child qualities: obedience
+15_child_obedience,WV4,I_NONOBED,Emancipative Values-1: Obedience not kid quality
+15_child_obedience,WV5,V21,Important child qualities: obedience
+15_child_obedience,WV5,I_NONOBED,Emancipative Values-1: Obedience not kid quality
+15_child_obedience,WV6,V21,Important child qualities: Obedience
+15_child_obedience,WV6,I_NONOBED,Emancipative Values-1: Obedience not kid quality
+15_child_obedience,WV7,Q17,Important child qualities: obedience
+15_child_obedience,WV7,I_NONOBED,Emancipative Values-1: Obedience not kid quality
+16_other_child_qualities,WV2,V230,Important child qualities: imagination
+16_other_child_qualities,WV2,V235,Important child qualities: unselfishness
+16_other_child_qualities,WV2,I_IMAGIN,IMAGIN- Welzel autonomy-2: Imagination as kid quality
+16_other_child_qualities,WV3,V18,Important child qualities: imagination
+16_other_child_qualities,WV3,V23,Important child qualities: unselfishness
+16_other_child_qualities,WV3,I_IMAGIN,IMAGIN- Welzel autonomy-2: Imagination as kid quality
+16_other_child_qualities,WV4,V18,Important child qualities: imagination
+16_other_child_qualities,WV4,V23,Important child qualities: unselfishness
+16_other_child_qualities,WV4,I_IMAGIN,IMAGIN- Welzel autonomy-2: Imagination as kid quality
+16_other_child_qualities,WV5,V15,Important child qualities: imagination
+16_other_child_qualities,WV5,V20,Important child qualities: unselfishness
+16_other_child_qualities,WV5,V214,I see myself as an autonomous individual
+16_other_child_qualities,WV5,I_IMAGIN,IMAGIN- Welzel autonomy-2: Imagination as kid quality
+16_other_child_qualities,WV6,V15,Important child qualities: Imagination
+16_other_child_qualities,WV6,V20,Important child qualities: Unselfishness
+16_other_child_qualities,WV6,V160J,I see myself as someone who: has an active imagination
+16_other_child_qualities,WV6,V216,I see myself as an autonomous individual
+16_other_child_qualities,WV6,I_IMAGIN,Emancipative Values-1: Imagination as kid quality
+16_other_child_qualities,WV7,Q11,Important child qualities: imagination
+16_other_child_qualities,WV7,Q16,Important child qualities: unselfishness
+16_other_child_qualities,WV7,I_IMAGIN,IMAGIN- Welzel autonomy-2: Imagination as kid quality
+17_justifiability,WV2,V296,Justifiable: Claiming government benefits to which you are not entitled
+17_justifiability,WV2,V297,Justifiable: Avoiding a fare on public transport
+17_justifiability,WV2,V298,Justifiable: Cheating on taxes
+17_justifiability,WV2,V299,Justifiable: Buy stolen goods
+17_justifiability,WV2,V306,Justifiable: Someone accepting a bribe
+17_justifiability,WV2,V307,Justifiable: Homosexuality
+17_justifiability,WV2,V308,Justifiable: Prostitution
+17_justifiability,WV2,V309,Justifiable: Abortion
+17_justifiability,WV2,V310,Justifiable: Divorce
+17_justifiability,WV2,V312,Justifiable: Euthanasia
+17_justifiability,WV2,V313,Justifiable: Suicide
+17_justifiability,WV3,V164,Using violence for political goals not justified
+17_justifiability,WV5,V198,Justifiable: Claiming government benefits to which you are not entitled
+17_justifiability,WV5,V199,Justifiable: Avoiding a fare on public transport
+17_justifiability,WV5,V200,Justifiable: Cheating on taxes
+17_justifiability,WV5,V201,Justifiable: Someone accepting a bribe
+17_justifiability,WV5,V202,Justifiable: Homosexuality
+17_justifiability,WV5,V203,Justifiable: Prostitution
+17_justifiability,WV5,V204,Justifiable: Abortion
+17_justifiability,WV5,V205,Justifiable: Divorce
+17_justifiability,WV5,V206,Justifiable: Euthanasia
+17_justifiability,WV5,V207,Justifiable: Suicide
+17_justifiability,WV5,V208,Justifiable: For a man to beat his wife
+17_justifiability,WV6,V198,Justifiable: Claiming government benefits to which you are not entitled
+17_justifiability,WV6,V199,Justifiable: Avoiding a fare on public transport
+17_justifiability,WV6,V200,Justifiable: Stealing property
+17_justifiability,WV6,V201,Justifiable: Cheating on taxes if you have a chance
+17_justifiability,WV6,V202,Justifiable: Someone accepting a bribe in the course of their duties
+17_justifiability,WV6,V203,Justifiable: Homosexuality
+17_justifiability,WV6,V203A,Justifiable: Prostitution
+17_justifiability,WV6,V204,Justifiable: Abortion
+17_justifiability,WV6,V205,Justifiable: Divorce
+17_justifiability,WV6,V206,Justifiable: Sex before marriage
+17_justifiability,WV6,V207,Justifiable: Suicide
+17_justifiability,WV6,V207A,Justifiable: Euthanasia
+17_justifiability,WV6,V208,Justifiable: For a man to beat his wife
+17_justifiability,WV6,V209,Justifiable: Parents beating children
+17_justifiability,WV6,V210,Justifiable: Violence against other people
+17_justifiability,WV7,Q177,Justifiable: Claiming government benefits to which you are not entitled
+17_justifiability,WV7,Q178,Justifiable: Avoiding a fare on public transport
+17_justifiability,WV7,Q179,Justifiable: Stealing property
+17_justifiability,WV7,Q180,Justifiable: Cheating on taxes
+17_justifiability,WV7,Q181,Justifiable: Someone accepting a bribe in the course of their duties
+17_justifiability,WV7,Q182,Justifiable: Homosexuality
+17_justifiability,WV7,Q183,Justifiable: Prostitution
+17_justifiability,WV7,Q184,Justifiable: Abortion
+17_justifiability,WV7,Q185,Justifiable: Divorce
+17_justifiability,WV7,Q186,Justifiable: Sex before marriage
+17_justifiability,WV7,Q187,Justifiable: Suicide
+17_justifiability,WV7,Q188,Justifiable: Euthanasia
+17_justifiability,WV7,Q189,Justifiable: For a man to beat his wife
+17_justifiability,WV7,Q190,Justifiable: Parents beating children
+17_justifiability,WV7,Q191,Justifiable: Violence against other people
+17_justifiability,WV7,Q192,"Justifiable: Terrorism as a political, ideological or religious mean"
+17_justifiability,WV7,Q193,Justifiable: Having casual sex
+17_justifiability,WV7,Q194,Justifiable: Political violence
+17_justifiability,WV7,Q195,Justifiable: Death penalty
+18_homosexual,WV2,V80,Neighbours: Homosexuals
+18_homosexual,WV2,V307,Justifiable: Homosexuality
+18_homosexual,WV2,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance
+18_homosexual,WV3,V60,Neighbours: Homosexuals
+18_homosexual,WV3,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance
+18_homosexual,WV4,V76,Neighbours: Homosexuals
+18_homosexual,WV4,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance
+18_homosexual,WV5,V38,Neighbours: Homosexuals
+18_homosexual,WV5,V202,Justifiable: Homosexuality
+18_homosexual,WV5,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance
+18_homosexual,WV6,V40,Would not like to have as neighbors: Homosexuals
+18_homosexual,WV6,V203,Justifiable: Homosexuality
+18_homosexual,WV6,I_HOMOLIB,Emancipative Values-3: Homosexuality acceptance
+18_homosexual,WV7,Q22,Neighbors: Homosexuals
+18_homosexual,WV7,Q36,Homosexual couples are as good parents as other couples
+18_homosexual,WV7,Q182,Justifiable: Homosexuality
+18_homosexual,WV7,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance
+19_abortion,WV2,V309,Justifiable: Abortion
+19_abortion,WV2,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable
+19_abortion,WV3,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable
+19_abortion,WV4,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable
+19_abortion,WV5,V204,Justifiable: Abortion
+19_abortion,WV5,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable
+19_abortion,WV6,V204,Justifiable: Abortion
+19_abortion,WV6,I_ABORTLIB,Emancipative Values-3: Abortion acceptable
+19_abortion,WV7,Q184,Justifiable: Abortion
+19_abortion,WV7,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable
+20_neighbors,WV2,V69,Neighbours: People with a criminal record
+20_neighbors,WV2,V70,Neighbours: People of a different race
+20_neighbors,WV2,V72,Neighbours: Heavy drinkers
+20_neighbors,WV2,V75,Neighbours: Emotionally unstable people
+20_neighbors,WV2,V76,Neighbours: Muslims
+20_neighbors,WV2,V77,Neighbours: Immigrants/foreign workers
+20_neighbors,WV2,V78,Neighbours: People who have AIDS
+20_neighbors,WV2,V79,Neighbours: Drug addicts
+20_neighbors,WV2,V80,Neighbours: Homosexuals
+20_neighbors,WV2,V82A,Neighbours: Political Extremists
+20_neighbors,WV3,V51,Neighbours: People with a criminal record
+20_neighbors,WV3,V52,Neighbours: People of a different race
+20_neighbors,WV3,V53,Neighbours: Political Extremists
+20_neighbors,WV3,V54,Neighbours: Heavy drinkers
+20_neighbors,WV3,V55,Neighbours: Emotionally unstable people
+20_neighbors,WV3,V56_07,Neighbours: Christians
+20_neighbors,WV3,V57,Neighbours: Immigrants/foreign workers
+20_neighbors,WV3,V58,Neighbours: People who have AIDS
+20_neighbors,WV3,V59,Neighbours: Drug addicts
+20_neighbors,WV3,V60,Neighbours: Homosexuals
+20_neighbors,WV4,V68,Neighbours: People with a criminal record
+20_neighbors,WV4,V69,Neighbours: People of a different race
+20_neighbors,WV4,V70,Neighbours: Heavy drinkers
+20_neighbors,WV4,V71,Neighbours: Emotionally unstable people
+20_neighbors,WV4,V73,Neighbours: Immigrants/foreign workers
+20_neighbors,WV4,V74,Neighbours: People who have AIDS
+20_neighbors,WV4,V75,Neighbours: Drug addicts
+20_neighbors,WV4,V76,Neighbours: Homosexuals
+20_neighbors,WV4,V77_03,Neighbours: People of a different religion
+20_neighbors,WV4,V77_15,Neighbours: Christians
+20_neighbors,WV5,V34,Neighbours: Drug addicts
+20_neighbors,WV5,V35,Neighbours: People of a different race
+20_neighbors,WV5,V36,Neighbours: People who have AIDS
+20_neighbors,WV5,V37,Neighbours: Immigrants/foreign workers
+20_neighbors,WV5,V38,Neighbours: Homosexuals
+20_neighbors,WV5,V39,Neighbours: People of a different religion
+20_neighbors,WV5,V40,Neighbours: Heavy drinkers
+20_neighbors,WV5,V41,Neighbours: Unmarried couples living together
+20_neighbors,WV5,V42,Neighbours: People who speak a different language
+20_neighbors,WV5,V126,Trust: Your neighborhood (B)
+20_neighbors,WV6,V36,Would not like to have as neighbors: Drug addicts
+20_neighbors,WV6,V37,Would not like to have as neighbors: People of a different race
+20_neighbors,WV6,V38,Would not like to have as neighbors: People who have AIDS
+20_neighbors,WV6,V39,Would not like to have as neighbors: Immigrants/foreign workers
+20_neighbors,WV6,V40,Would not like to have as neighbors: Homosexuals
+20_neighbors,WV6,V41,Would not like to have as neighbors: People of a different religion
+20_neighbors,WV6,V42,Would not like to have as neighbors: Heavy drinkers
+20_neighbors,WV6,V43,Would not like to have as neighbors: Unmarried couples living together
+20_neighbors,WV6,V44,Would not like to have as neighbors: People who speak a different language
+20_neighbors,WV6,V44_ES,Would not like to have as neighbors: Gypsies (ES)
+20_neighbors,WV6,V103,How much you trust: Your neighborhood
+20_neighbors,WV6,V170,Secure in neighborhood
+20_neighbors,WV6,V171,How frequently do the following things occur in your neighborhood: Robberies
+20_neighbors,WV6,V172,How frequently do the following things occur in your neighborhood: Alcohol consumed in the streets
+20_neighbors,WV6,V173,How frequently do the following things occur in your neighborhood: Police or military interfere with people’s private life
+20_neighbors,WV6,V174,How frequently do the following things occur in your neighborhood: Racist behavior
+20_neighbors,WV6,V175,How frequently do the following things occur in your neighborhood: Drug sale in streets
+20_neighbors,WV7,Q18,Neighbors: Drug addicts
+20_neighbors,WV7,Q19,Neighbors: People of a different race
+20_neighbors,WV7,Q20,Neighbors: People who have AIDS
+20_neighbors,WV7,Q21,Neighbors: Immigrants/foreign workers
+20_neighbors,WV7,Q22,Neighbors: Homosexuals
+20_neighbors,WV7,Q23,Neighbors: People of a different religion
+20_neighbors,WV7,Q24,Neighbors: Heavy drinkers
+20_neighbors,WV7,Q25,Neighbors: Unmarried couples living together
+20_neighbors,WV7,Q26,Neighbors: People who speak a different language
+20_neighbors,WV7,Q59,Trust: Your neighborhood
+20_neighbors,WV7,Q131,Secure in neighborhood
+20_neighbors,WV7,Q132,Frequency in your neighborhood: Robberies
+20_neighbors,WV7,Q133,Frequency in your neighborhood: Alcohol consumed in the streets
+20_neighbors,WV7,Q134,Frequency in your neighborhood: Police or military interfere with people’s private life
+20_neighbors,WV7,Q135,Frequency in your neighborhood: Racist behavior
+20_neighbors,WV7,Q136,Frequency in your neighborhood: Drug sale in streets
+20_neighbors,WV7,Q137,Frequency in your neighborhood: Street violence and fights
+20_neighbors,WV7,Q138,Frequency in your neighborhood: Sexual harassment
+21_happiness,WV2,V18,Feeling of happiness
+21_happiness,WV3,V10,Feeling of happiness
+21_happiness,WV4,V11,Feeling of happiness
+21_happiness,WV5,V10,Feeling of happiness
+21_happiness,WV6,V10,Feeling of happiness
+21_happiness,WV7,Q46,Feeling of happiness
+22_religion_important_in_life,WV2,V9,Important in life: Religion
+22_religion_important_in_life,WV3,V9,Important in life: Religion
+22_religion_important_in_life,WV4,V9,Important in life: Religion
+22_religion_important_in_life,WV5,V9,Important in life: Religion
+22_religion_important_in_life,WV6,V9,Important in life: Religion
+22_religion_important_in_life,WV7,Q6,Important in life: Religion
+23_interpersonal_trust_v2,WV5,V127,Trust: People you know personally (B)
+23_interpersonal_trust_v2,WV5,V128,Trust: People you meet for the first time (B)
+23_interpersonal_trust_v2,WV5,V129,Trust: People of another religion (B)
+23_interpersonal_trust_v2,WV5,V130,Trust: People of another nationality (B)
+23_interpersonal_trust_v2,WV6,V104,How much you trust: People you know personally
+23_interpersonal_trust_v2,WV6,V105,How much you trust: People you meet for the first time
+23_interpersonal_trust_v2,WV6,V106,How much you trust: People of another religion
+23_interpersonal_trust_v2,WV6,V107,How much you trust: People of another nationality
+23_interpersonal_trust_v2,WV7,Q60,Trust: People you know personally
+23_interpersonal_trust_v2,WV7,Q61,Trust: People you meet for the first time
+23_interpersonal_trust_v2,WV7,Q62,Trust: People of another religion
+23_interpersonal_trust_v2,WV7,Q63,Trust: People of another nationality
+24_social_class,WV3,V226,Subjective social class position
+24_social_class,WV4,V235,Social class (subjective)
+24_social_class,WV5,V252,Social class (subjective)
+24_social_class,WV6,V238,Social class (subjective)
+24_social_class,WV7,Q287,Social class (subjective)
+25_income_scale,WV2,V363,Scale of incomes
+25_income_scale,WV3,V227,Subjective scale of income
+25_income_scale,WV4,V236,Scale of incomes
+25_income_scale,WV5,V253,Scale of incomes
+25_income_scale,WV6,V239,Scale of incomes
+25_income_scale,WV7,Q35_3,Problem if women have more income than husband (3-point scale)
+25_income_scale,WV7,Q288,Scale of incomes

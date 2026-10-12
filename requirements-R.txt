@@ -1,0 +1,5 @@
+# R packages used by code/mgcfa_analysis.R (called by code/mgcfa_runner.py).
+# Install from inside R:  install.packages(c("lavaan", "semTools"))
+# lavaan 0.6-19 was installed when this repository was prepared.
+lavaan
+semTools

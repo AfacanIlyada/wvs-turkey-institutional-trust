@@ -1,0 +1,12 @@
+# Python packages imported by code/*.py and notebooks/*.ipynb.
+# Versions are the ones installed on the author's machine when this repository
+# was prepared (lower bounds only; the original analysis ran on Python 3.12).
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+statsmodels>=0.14
+scikit-learn>=1.4
+matplotlib>=3.8
+openpyxl>=3.1      # reads the WVS .xlsx country files
+pyarrow>=14        # reads/writes results/bootstrap_draws.parquet
+jupyter            # only needed to open the notebooks

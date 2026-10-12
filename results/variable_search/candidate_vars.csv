@@ -1,0 +1,151 @@
+concept,wave,var_name,label,notes
+interpersonal_trust,WV2,V94,Most people can be trusted,Most people can be trusted (A165)
+interpersonal_trust,WV3,V27,Most people can be trusted,Most people can be trusted (A165)
+interpersonal_trust,WV4,V25,Most people can be trusted,Most people can be trusted (A165)
+interpersonal_trust,WV5,V23,Most people can be trusted,Most people can be trusted (A165)
+interpersonal_trust,WV6,V24,Most people can be trusted,Most people can be trusted (A165)
+interpersonal_trust,WV7,Q57,Most people can be trusted,Most people can be trusted (A165)
+happiness,WV2,V18,Feeling of happiness,Feeling of happiness / taking things together
+happiness,WV3,V10,Feeling of happiness,Feeling of happiness / taking things together
+happiness,WV4,V11,Feeling of happiness,Feeling of happiness / taking things together
+happiness,WV5,V10,Feeling of happiness,Feeling of happiness / taking things together
+happiness,WV6,V10,Feeling of happiness,Feeling of happiness / taking things together
+happiness,WV7,Q46,Feeling of happiness,Feeling of happiness / taking things together
+financial_satisfaction,WV2,V132,Satisfaction with financial situation of household,Satisfaction with financial situation of household
+financial_satisfaction,WV3,V64,Satisfaction with financial situation of household,Satisfaction with financial situation of household
+financial_satisfaction,WV4,V80,Satisfaction with financial situation of household,Satisfaction with financial situation of household
+financial_satisfaction,WV5,V68,Satisfaction with financial situation of household,Satisfaction with financial situation of household
+financial_satisfaction,WV6,V59,Satisfaction with financial situation of household,Satisfaction with financial situation of household
+financial_satisfaction,WV7,Q50,Satisfaction with financial situation of household,Satisfaction with financial situation of household
+strong_leader,WV2,MISSING,,Political system: having a strong leader
+strong_leader,WV3,V154,Political system: Having a strong leader,Political system: having a strong leader
+strong_leader,WV4,V164,Political system: Having a strong leader,Political system: having a strong leader
+strong_leader,WV5,V148,Political system: Having a strong leader,Political system: having a strong leader
+strong_leader,WV6,V127,Political system: Having a strong leader who does not have  to bother with parliament and elections,Political system: having a strong leader
+strong_leader,WV7,Q235,Political system: Having a strong leader who does not have to bother with parliament and elections,Political system: having a strong leader
+political_interest,WV2,V241,Interest in politics,How interested in politics / interest in politics
+political_interest,WV3,V117,Interest in politics,How interested in politics / interest in politics
+political_interest,WV4,V133,Interest in politics,How interested in politics / interest in politics
+political_interest,WV5,V95,Interest in politics,How interested in politics / interest in politics
+political_interest,WV6,V84,Interest in politics,How interested in politics / interest in politics
+political_interest,WV7,Q199,Interest in politics,How interested in politics / interest in politics
+marital_status,WV2,V181,Marital status,Marital status
+marital_status,WV3,V89,Marital status,Marital status
+marital_status,WV4,V106,Marital status,Marital status
+marital_status,WV5,V55,Marital status,Marital status
+marital_status,WV6,V57,Marital status,Marital status
+marital_status,WV7,Q273,Marital status,Marital status
+region,WV2,V370,Region where the interview was conducted,Geographic region (sub-national); switched from V2 which is country code
+region,WV3,V234,Region,Geographic region (sub-national); switched from V2 which is country code
+region,WV4,REGION_ISO,Region ISO,Geographic region (sub-national); switched from V2 which is country code
+region,WV5,V257,Region where the interview was conducted,Geographic region (sub-national); switched from V2 which is country code
+region,WV6,V256,Region where the interview was conducted,Geographic region (sub-national); switched from V2 which is country code
+region,WV7,N_REGION_WVS,Region country specific,Geographic region (sub-national); switched from V2 which is country code
+social_class,WV2,MISSING,,Social class (subjective)
+social_class,WV3,V226,Subjective social class position,Social class (subjective)
+social_class,WV4,V235,Social class (subjective),Social class (subjective)
+social_class,WV5,V252,Social class (subjective),Social class (subjective)
+social_class,WV6,V238,Social class (subjective),Social class (subjective)
+social_class,WV7,Q287,Social class (subjective),Social class (subjective)
+national_pride,WV2,V322,How proud of nationality,How proud of nationality
+national_pride,WV3,V205,How proud of nationality,How proud of nationality
+national_pride,WV4,V216,How proud of nationality,How proud of nationality
+national_pride,WV5,V209,How proud of nationality,How proud of nationality
+national_pride,WV6,V211,How proud of nationality,How proud of nationality
+national_pride,WV7,Q254,National pride,How proud of nationality | recovered after label regex missed (WV7 label is just 'National pride')
+civil_service,WV2,V280,Confidence: The Civil Services,Confidence: civil services
+civil_service,WV3,V145,Confidence: The Civil Services,Confidence: civil services
+civil_service,WV4,V156,Confidence: The Civil Services,Confidence: civil services
+civil_service,WV5,V141,Confidence: The Civil Services,Confidence: civil services
+civil_service,WV6,V118,Confidence: The Civil service,Confidence: civil services
+civil_service,WV7,Q74,Confidence: The Civil Services,Confidence: civil services | MULTIPLE (2): also Q116: Involved in corruption: Civil service providers
+member_org_church,WV2,MISSING,,Membership: church / religious organization
+member_org_church,WV3,V28,Active/Inactive membership of church or religious organization,Membership: church / religious organization
+member_org_church,WV4,MISSING,,Membership: church / religious organization
+member_org_church,WV5,V24,Active/Inactive membership of church or religious organization,Membership: church / religious organization
+member_org_church,WV6,V25,Active/Inactive membership: Church or religious organization,Membership: church / religious organization
+member_org_church,WV7,Q94,Active/Inactive membership: Church or religious organization,Membership: church / religious organization
+member_org_sport,WV2,V29,Member: Belong to sports or recreation,Membership: sport / recreational club
+member_org_sport,WV3,V29,Active/Inactive membership of sport or recreation,Membership: sport / recreational club
+member_org_sport,WV4,MISSING,,Membership: sport / recreational club
+member_org_sport,WV5,V25,Active/Inactive membership of sport or recreation,Membership: sport / recreational club
+member_org_sport,WV6,V26,Active/Inactive membership: Sport or recreational organization,Membership: sport / recreational club
+member_org_sport,WV7,Q95,"Active/Inactive membership: Sport or recreational organization, football/baseball/rugby team",Membership: sport / recreational club
+member_org_labour,WV2,V22,Member: Belong to labour unions,Membership: labour union
+member_org_labour,WV3,V31,Active/Inactive membership of labour unions,Membership: labour union
+member_org_labour,WV4,MISSING,,Membership: labour union
+member_org_labour,WV5,V27,Active/Inactive membership of labour unions,Membership: labour union
+member_org_labour,WV6,V28,Active/Inactive membership: Labor Union,Membership: labour union
+member_org_labour,WV7,Q97,Active/Inactive membership: labor union,Membership: labour union
+member_org_political_party,WV2,V23,Member: Belong to political parties,Membership: political party
+member_org_political_party,WV3,V32,Active/Inactive membership of political party,Membership: political party
+member_org_political_party,WV4,MISSING,,Membership: political party
+member_org_political_party,WV5,V28,Active/Inactive membership of political party,Membership: political party
+member_org_political_party,WV6,V29,Active/Inactive membership: Political party,Membership: political party
+member_org_political_party,WV7,Q98,Active/Inactive membership: political party,Membership: political party
+justif_abortion,WV2,V309,Justifiable: Abortion,Justifiable: Abortion
+justif_abortion,WV3,MISSING,,Justifiable: Abortion
+justif_abortion,WV4,MISSING,,Justifiable: Abortion
+justif_abortion,WV5,V204,Justifiable: Abortion,Justifiable: Abortion
+justif_abortion,WV6,V204,Justifiable: Abortion,Justifiable: Abortion
+justif_abortion,WV7,Q184,Justifiable: Abortion,Justifiable: Abortion
+justif_divorce,WV2,V310,Justifiable: Divorce,Justifiable: Divorce
+justif_divorce,WV3,MISSING,,Justifiable: Divorce
+justif_divorce,WV4,MISSING,,Justifiable: Divorce
+justif_divorce,WV5,V205,Justifiable: Divorce,Justifiable: Divorce
+justif_divorce,WV6,V205,Justifiable: Divorce,Justifiable: Divorce
+justif_divorce,WV7,Q185,Justifiable: Divorce,Justifiable: Divorce
+justif_homosex,WV2,V307,Justifiable: Homosexuality,Justifiable: Homosexuality
+justif_homosex,WV3,MISSING,,Justifiable: Homosexuality
+justif_homosex,WV4,MISSING,,Justifiable: Homosexuality
+justif_homosex,WV5,V202,Justifiable: Homosexuality,Justifiable: Homosexuality
+justif_homosex,WV6,V203,Justifiable: Homosexuality,Justifiable: Homosexuality
+justif_homosex,WV7,Q182,Justifiable: Homosexuality,Justifiable: Homosexuality
+welzel_abortlib,WV2,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable,Welzel ABORTLIB (WV4 substitute for justif_abortion)
+welzel_abortlib,WV3,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable,Welzel ABORTLIB (WV4 substitute for justif_abortion)
+welzel_abortlib,WV4,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable,Welzel ABORTLIB (WV4 substitute for justif_abortion)
+welzel_abortlib,WV5,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable,Welzel ABORTLIB (WV4 substitute for justif_abortion)
+welzel_abortlib,WV6,I_ABORTLIB,Emancipative Values-3: Abortion acceptable,Welzel ABORTLIB (WV4 substitute for justif_abortion)
+welzel_abortlib,WV7,I_ABORTLIB,ABORTLIB- Welzel choice-2: Abortion acceptable,Welzel ABORTLIB (WV4 substitute for justif_abortion)
+welzel_divorlib,WV2,I_DIVORLIB,DIVORLIB- Welzel choice-3: Divorce acceptable,Welzel DIVORLIB
+welzel_divorlib,WV3,I_DIVORLIB,DIVORLIB- Welzel choice-3: Divorce acceptable,Welzel DIVORLIB
+welzel_divorlib,WV4,I_DIVORLIB,DIVORLIB- Welzel choice-3: Divorce acceptable,Welzel DIVORLIB
+welzel_divorlib,WV5,I_DIVORLIB,DIVORLIB- Welzel choice-3: Divorce acceptable,Welzel DIVORLIB
+welzel_divorlib,WV6,I_DIVORLIB,Emancipative Values-3: Divorce acceptable,Welzel DIVORLIB
+welzel_divorlib,WV7,I_DIVORLIB,DIVORLIB- Welzel choice-3: Divorce acceptable,Welzel DIVORLIB
+welzel_homolib,WV2,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance,Welzel HOMOLIB
+welzel_homolib,WV3,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance,Welzel HOMOLIB
+welzel_homolib,WV4,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance,Welzel HOMOLIB
+welzel_homolib,WV5,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance,Welzel HOMOLIB
+welzel_homolib,WV6,I_HOMOLIB,Emancipative Values-3: Homosexuality acceptance,Welzel HOMOLIB
+welzel_homolib,WV7,I_HOMOLIB,HOMOLIB- Welzel choice-1: Homosexuality acceptance,Welzel HOMOLIB
+child_independence,WV2,V227,Important child qualities: independence,Important child qualities: independence
+child_independence,WV3,V15,Important child qualities: independence,Important child qualities: independence
+child_independence,WV4,V15,Important child qualities: independence,Important child qualities: independence
+child_independence,WV5,V12,Important child qualities: independence,Important child qualities: independence
+child_independence,WV6,V12,Important child qualities: independence,Important child qualities: independence
+child_independence,WV7,Q8,Important child qualities: independence,Important child qualities: independence
+child_obedience,WV2,V236,Important child qualities: obedience,Important child qualities: obedience
+child_obedience,WV3,V24,Important child qualities: obedience,Important child qualities: obedience
+child_obedience,WV4,V24,Important child qualities: obedience,Important child qualities: obedience
+child_obedience,WV5,V21,Important child qualities: obedience,Important child qualities: obedience
+child_obedience,WV6,V21,Important child qualities: Obedience,Important child qualities: obedience
+child_obedience,WV7,Q17,Important child qualities: obedience,Important child qualities: obedience
+neighbor_immigrants,WV2,V77,Neighbours: Immigrants/foreign workers,Neighbours: immigrants / foreign workers
+neighbor_immigrants,WV3,V57,Neighbours: Immigrants/foreign workers,Neighbours: immigrants / foreign workers
+neighbor_immigrants,WV4,V73,Neighbours: Immigrants/foreign workers,Neighbours: immigrants / foreign workers
+neighbor_immigrants,WV5,V37,Neighbours: Immigrants/foreign workers,Neighbours: immigrants / foreign workers
+neighbor_immigrants,WV6,V39,Would not like to have as neighbors: Immigrants/foreign workers,Neighbours: immigrants / foreign workers
+neighbor_immigrants,WV7,Q21,Neighbors: Immigrants/foreign workers,Neighbours: immigrants / foreign workers
+neighbor_religion,WV2,MISSING,,Neighbours: different religion
+neighbor_religion,WV3,MISSING,,Neighbours: different religion
+neighbor_religion,WV4,V77_03,Neighbours: People of a different religion,Neighbours: different religion
+neighbor_religion,WV5,V39,Neighbours: People of a different religion,Neighbours: different religion
+neighbor_religion,WV6,V41,Would not like to have as neighbors: People of a different religion,Neighbours: different religion
+neighbor_religion,WV7,Q23,Neighbors: People of a different religion,Neighbours: different religion
+freedom_control,WV2,MISSING,,Freedom of choice / control over own life
+freedom_control,WV3,V66,How much freedom of choice and control,Freedom of choice / control over own life
+freedom_control,WV4,V82,How much freedom of choice and control,Freedom of choice / control over own life
+freedom_control,WV5,V46,How much freedom of choice and control,Freedom of choice / control over own life
+freedom_control,WV6,V55,How much freedom of choice and control over own life,Freedom of choice / control over own life
+freedom_control,WV7,Q48,How much freedom of choice and control,Freedom of choice / control over own life

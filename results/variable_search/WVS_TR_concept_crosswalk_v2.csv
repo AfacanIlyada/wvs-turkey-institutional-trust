@@ -1,0 +1,16 @@
+concept,WV2,WV3,WV4,WV5,WV6,WV7,n_waves,notes
+conf_military,V273,V136,V148,V132,V109,Q65,6,Confidence: armed forces
+conf_police,V278,V141,V152,V136,V113,Q69,6,Confidence: police
+conf_courts,V275,V137,MISS,V137,V114,Q70,5,Confidence: courts; WV4 missing
+conf_parliament,V279,V144,V155,V140,V117,Q73,6,Confidence: parliament
+conf_government,V289,V142,V153,V138,V115,Q71,6,Confidence: government
+rel_person,V151,V182,V186,V187,V147,Q173,6,Religious person (=rel_id in pooled v1)
+rel_attendance,V147,V181,V185,V186,V145,Q171,6,Religious attendance
+rel_importance_god,V176,V190,V196,V192,V152,Q164,6,NEW: importance of God
+left_right,V248,V123,V139,V114,V95,Q240,6,NEW: left-right self-placement
+life_satisfaction,V96,V65,V81,V22,V23,Q49,6,Already in pooled
+age,V355,V216,V225,V237,V242,Q262,6,Already in pooled
+sex,V353,V214,V223,V235,V240,Q260,6,"1=male,2=female; recode to female"
+income_raw,V363,V227,V236,V253,V239,Q288,6,NEW raw income (full scale)
+education_raw,V375,V217,V226,V238,V248,Q275,6,NEW raw education (full scale)
+party_raw,V351,V210,V220,V231,V228,Q223,6,NEW raw vote-intention first choice

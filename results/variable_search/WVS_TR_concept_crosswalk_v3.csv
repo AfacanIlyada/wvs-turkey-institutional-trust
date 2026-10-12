@@ -1,0 +1,43 @@
+concept,WV2,WV3,WV4,WV5,WV6,WV7,n_waves,notes
+conf_military,V273,V136,V148,V132,V109,Q65,6,Confidence: armed forces; reverse-coded to higher=more trust
+conf_police,V278,V141,V152,V136,V113,Q69,6,Confidence: police; reverse-coded
+conf_courts,V275,V137,MISS,V137,V114,Q70,5,Confidence: courts; WV4 missing; reverse-coded
+conf_parliament,V279,V144,V155,V140,V117,Q73,6,Confidence: parliament; reverse-coded
+conf_government,V289,V142,V153,V138,V115,Q71,6,Confidence: government; reverse-coded
+conf_civil_service,V280,V145,V156,V141,V118,Q74,6,Confidence: civil services; reverse-coded
+rel_person,V151,V182,V186,V187,V147,Q173,6,"Religious person self-id (raw 1=religious,2=not,3=atheist)"
+rel_attendance,V147,V181,V185,V186,V145,Q171,6,"Religious attendance frequency (raw, higher=less often per WVS)"
+rel_importance_god,V176,V190,V196,V192,V152,Q164,6,Importance of God in life (raw 1-10)
+left_right,V248,V123,V139,V114,V95,Q240,6,Self-placement left-right (raw 1=left .. 10=right)
+life_satisfaction,V96,V65,V81,V22,V23,Q49,6,Satisfaction with your life (raw 1-10)
+financial_satisfaction,V132,V64,V80,V68,V59,Q50,6,Satisfaction with household financial situation (raw 1-10)
+happiness,V18,V10,V11,V10,V10,Q46,6,Feeling of happiness (raw 1=very happy .. 4=not at all)
+interpersonal_trust,V94,V27,V25,V23,V24,Q57,6,"Most people can be trusted (raw 1=can be trusted,2=can't)"
+political_interest,V241,V117,V133,V95,V84,Q199,6,Interest in politics (raw 1=very interested .. 4=not at all)
+freedom_control,MISS,V66,V82,V46,V55,Q48,5,How much freedom of choice and control (raw 1-10); WV2 missing
+democracy_importance,MISS,MISS,MISS,V162,V140,Q250,3,Importance of democracy (raw 1-10); not asked WV2-4
+strong_leader,MISS,V154,V164,V148,V127,Q235,5,Political system: strong leader (raw 1=very good .. 4=very bad); WV2 missing
+national_pride,V322,V205,V216,V209,V211,Q254,6,How proud of nationality (raw 1=very .. 4=not at all proud)
+postmaterialism_index,Y002,Y002,Y002,Y002,Y002,Y002,6,"Inglehart 4-item index (1=Materialist,2=Mixed,3=Postmaterialist)"
+age,V355,V216,V225,V237,V242,Q262,6,Age in years
+sex,V353,V214,V223,V235,V240,Q260,6,"Sex (raw 1=male, 2=female)"
+education_raw,V375,V217,V226,V238,V248,Q275,6,Education attainment; WV2-6 use WVS X025 1-8/9 scale; WV7 uses ISCED 0-6; education_recode not directly comparable across WV7
+income_raw,V363,V227,V236,V253,V239,Q288,6,Scale of incomes / subjective income decile (raw 1-10)
+marital_status,V181,V89,V106,V55,V57,Q273,6,"Marital status (raw codes; 1=married, 2=living-together typical)"
+social_class,MISS,V226,V235,V252,V238,Q287,5,Subjective social class (raw 1=upper .. 5=lower per WVS); WV2 missing
+region,V370,V234,REGION_ISO,V257,V256,N_REGION_WVS,6,"Sub-national region where interview conducted (categorical, wave-specific codes)"
+party_raw,V351,V210,V220,V231,V228,Q223,6,Vote intention first choice (raw country-specific party codes)
+member_org_church,MISS,V28,MISS,V24,V25,Q94,4,Active/Inactive membership of church or religious org
+member_org_sport,V29,V29,MISS,V25,V26,Q95,5,Active/Inactive membership of sport or recreation
+member_org_labour,V22,V31,MISS,V27,V28,Q97,5,Active/Inactive membership of labour unions
+member_org_political_party,V23,V32,MISS,V28,V29,Q98,5,Active/Inactive membership of political party
+justif_abortion,V309,MISS,MISS,V204,V204,Q184,4,Justifiable: abortion (raw 1=never .. 10=always)
+justif_divorce,V310,MISS,MISS,V205,V205,Q185,4,Justifiable: divorce (raw 1-10)
+justif_homosex,V307,MISS,MISS,V202,V203,Q182,4,Justifiable: homosexuality (raw 1-10)
+welzel_abortlib,I_ABORTLIB,I_ABORTLIB,I_ABORTLIB,I_ABORTLIB,I_ABORTLIB,I_ABORTLIB,6,"Welzel emancipative-values: abortion acceptance; column present in all 6 waves, but all-NaN in WV3 + WV4 (Turkey country files lack the raw justif item to compute it)"
+welzel_divorlib,I_DIVORLIB,I_DIVORLIB,I_DIVORLIB,I_DIVORLIB,I_DIVORLIB,I_DIVORLIB,6,Welzel emancipative-values: divorce acceptance; WV3/WV4 all-NaN
+welzel_homolib,I_HOMOLIB,I_HOMOLIB,I_HOMOLIB,I_HOMOLIB,I_HOMOLIB,I_HOMOLIB,6,Welzel emancipative-values: homosexuality acceptance; WV3/WV4 all-NaN
+child_independence,V227,V15,V15,V12,V12,Q8,6,Important child qualities: independence (binary mention)
+child_obedience,V236,V24,V24,V21,V21,Q17,6,Important child qualities: obedience (binary mention)
+neighbor_immigrants,V77,V57,V73,V37,V39,Q21,6,"Neighbours: immigrants/foreign workers (1=would not like, 0=fine)"
+neighbor_religion,MISS,MISS,V77_03,V39,V41,Q23,4,Neighbours: different religion (1=would not like); WV2/3 missing

@@ -1,0 +1,36 @@
+concept,WV2,WV3,WV4,WV5,WV6,WV7,n_waves,WV2_label
+Confidence: armed forces,V273,V136,V148,V132,V109,Q65,6,Confidence: Armed Forces
+Confidence: churches/religion,V272,V135,V147,V131,V108,Q64,6,Confidence: Churches
+Confidence: press,V276,V138,V149,V133,V110,Q66,6,Confidence: The Press
+Confidence: TV,,V139,V150,V134,V111,Q67,5,Confidence: Television
+Confidence: unions,V277,V140,V151,V135,V112,Q68,6,Confidence: Labour Unions
+Confidence: police,V278,V141,V152,V136,V113,Q69,6,Confidence: The Police
+Confidence: courts,V275,V137,,V137,V114,Q70,5,Confidence: Justice System/Courts
+Confidence: government,V289,V142,V153,V138,V115; V125_17,Q71,6,Confidence: The Government
+Confidence: parliament,V279,V144,V155,V140,V117,Q73,6,Confidence: Parliament
+Confidence: civil service,V280,V145,V156,V141,V118,Q74,6,Confidence: The Civil Services
+Confidence: political parties,,V143,V154,V139,V116,Q72,5,Confidence: The Political Parties
+Confidence: universities,,,,,V119,Q75,2,Confidence: Universities
+Confidence: companies,V281,V146,V157,V142,V120,Q77,6,Confidence: Major Companies
+Confidence: UN,,V150,V162,V147,V126,Q83,5,Confidence: The United Nations
+Confidence: EU,V283B,V149_00,,V146_00,V125_00,Q82_EU,5,Confidence: The European Union
+Confidence: NATO,,,,,,Q86,1,Confidence: North Atlantic Treaty Organization (NATO)
+Confidence: environmental movt,,V147,V158,V143,V122,Q79,5,Confidence: The Environmental Protection Movement
+Confidence: women's movement,,V148,V159,V144,,Q80,4,Confidence: The Women´s Movement
+Confidence: charitable orgs,,,,V145,V124,Q81,3,Confidence: Charitable or humanitarian organizations
+Confidence: banks,,,,,V121,Q78,2,Confidence: Banks
+Interpersonal trust (A165),V94,V27,V25,V23,V24,Q57,6,Most people can be trusted
+Age,V355,V216,V225,V237,V242,Q262,6,Age
+Year of birth,V354,V215,V224,V236,V241,Q261,6,Year of birth
+Sex / Gender,V353,V214,V223,V235,V240,Q260,6,Sex
+Education level (highest attained),V375; V375R,V217; V217R,V226; V226R; V226CS,V238; V238R; V238CS,V248,Q275; Q275A; Q275R; Q276; Q276A; Q276R; Q277; Q277A; Q277R; Q278; Q278A; Q278R,6,Highest educational level attained
+Religious attendance (F028),V147,V181,V185,V186,V145,Q171,6,How often do you attend religious services
+Religious person (F034),V151,V182,V186,V187,V147,Q173,6,Religious person
+Importance of religion,V9,V9,V9,V9,V9,Q6,6,Important in life: Religion
+Gender role: jobs scarce (D059),V128,V61,V78,V44,,Q33; Q33_3,5,Jobs scarce: Men should have more right to a job than women
+Gender role: housewife (D057),V221,V99,V116,V60,,Q32,5,Being a housewife just as fulfilling
+Gender role: mother works → kids suffer,V218,V98,V115,,V50,Q28,5,Relationship working mother
+Gender role: men better politicians,,V101,V118,V61,V51,Q29,5,Men make better political leaders than women do
+Gender role: univ more imp boy,,V103,V119,V62,V52,Q30,5,University is more important for a boy than for a girl
+Life satisfaction (A170),V96,V65,V81,V22,V23,Q49,6,Satisfaction with your life
+National pride (G006),V322,V205,V216,V209,V211,Q254,6,How proud of nationality

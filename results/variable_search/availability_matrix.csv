@@ -1,0 +1,16 @@
+code,concept,WV2,WV3,WV4,WV5,WV6,WV7,notes
+E069_02,Confidence: armed forces,V273,V136,V148,V132,V109,Q65,
+E069_06,Confidence: police,V278,V141,V152,V136,V113,Q69,
+E069_17,Confidence: courts / justice system,V275,V137,MISSING,V137,V114,Q70,Not asked in Turkey WV4
+E069_07,Confidence: parliament,V279,V144,V155,V140,V117,Q73,
+E069_11,Confidence: government,V289,V142,V153,V138,V115,Q71,WV6 has V125_17 as alternate per existing crosswalk
+F034,Religious person (self-identification),V151,V182,V186,V187,V147,Q173,
+F028,Religious attendance,V147,V181,V185,V186,V145,Q171,
+F063,Importance of God in life,V176,V190,V196,V192,V152,Q164,
+E179WVS,"Party preference (vote intention, first choice)",V351,V210,V220,V231,V228,Q223,"Country-specific party codes; the WVS-harmonized recode E179WVS is not present in country files, use V*_LOCAL / Q223_LOCAL for raw Turkish parties."
+E033,Self-positioning on left-right political scale,V248,V123,V139,V114,V95,Q240,
+X025R,"Education (highest level attained, recoded 3 groups)",V375R,V217R,V226R,V238R,MISSING,Q275R,WV6 lacks the 3-group recode; raw fallback V248
+X003,Age,V355,V216,V225,V237,V242,Q262,
+X001,Sex,V353,V214,V223,V235,V240,Q260,
+A170,Life satisfaction,V96,V65,V81,V22,V23,Q49,
+X047_WVS,Income scale (recoded 10-step harmonized),V363R,MISSING,MISSING,V253R,MISSING,Q288R,Recoded form available only WV2/WV5/WV7. Raw 'Scale of incomes' equivalents: V363/V227/V236/V253/V239/Q288.
